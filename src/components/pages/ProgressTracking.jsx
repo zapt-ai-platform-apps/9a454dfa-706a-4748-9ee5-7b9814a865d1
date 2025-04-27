@@ -4,9 +4,9 @@ const ProgressTracking = () => {
   const [activeTab, setActiveTab] = useState('overview');
 
   const tabs = [
-    { id: 'overview', label: 'Overview' },
-    { id: 'skills', label: 'Skills Breakdown' },
-    { id: 'achievements', label: 'Achievements' }
+    { id: 'overview', label: 'Ikhtisar' },
+    { id: 'skills', label: 'Rincian Keterampilan' },
+    { id: 'achievements', label: 'Pencapaian' }
   ];
 
   // This would normally be fetched from a database or state management
@@ -19,33 +19,33 @@ const ProgressTracking = () => {
   };
 
   const skillsData = [
-    { name: 'Speaking Skills', progress: 65, lessons: 4, exercises: 8 },
-    { name: 'Listening Skills', progress: 50, lessons: 3, exercises: 6 },
-    { name: 'Influence & Persuasion', progress: 35, lessons: 2, exercises: 4 },
-    { name: 'Getting Approval', progress: 40, lessons: 2, exercises: 5 },
-    { name: 'Mood Management', progress: 70, lessons: 4, exercises: 9 },
-    { name: 'Complimenting', progress: 25, lessons: 1, exercises: 3 },
-    { name: 'Criticism Understanding', progress: 20, lessons: 1, exercises: 2 },
-    { name: 'Gratitude Expression', progress: 45, lessons: 2, exercises: 5 },
-    { name: 'Impression Creation', progress: 55, lessons: 3, exercises: 7 },
-    { name: 'Conversation Skills', progress: 30, lessons: 2, exercises: 4 }
+    { name: 'Keterampilan Berbicara', progress: 65, lessons: 4, exercises: 8 },
+    { name: 'Keterampilan Mendengarkan', progress: 50, lessons: 3, exercises: 6 },
+    { name: 'Pengaruh & Persuasi', progress: 35, lessons: 2, exercises: 4 },
+    { name: 'Mendapatkan Persetujuan', progress: 40, lessons: 2, exercises: 5 },
+    { name: 'Manajemen Suasana Hati', progress: 70, lessons: 4, exercises: 9 },
+    { name: 'Memuji', progress: 25, lessons: 1, exercises: 3 },
+    { name: 'Memahami Kritik', progress: 20, lessons: 1, exercises: 2 },
+    { name: 'Mengungkapkan Syukur', progress: 45, lessons: 2, exercises: 5 },
+    { name: 'Membuat Kesan', progress: 55, lessons: 3, exercises: 7 },
+    { name: 'Keterampilan Percakapan', progress: 30, lessons: 2, exercises: 4 }
   ];
 
   const achievements = [
-    { title: 'First Steps', description: 'Complete your first module', completed: true, date: '2023-06-15' },
-    { title: 'Consistent Learner', description: 'Maintain a 5-day streak', completed: true, date: '2023-06-20' },
-    { title: 'Practice Makes Perfect', description: 'Complete 10 practical exercises', completed: true, date: '2023-06-25' },
-    { title: 'Halfway There', description: 'Reach 50% overall progress', completed: false },
-    { title: 'Conversation Master', description: 'Complete all conversation modules', completed: false },
-    { title: 'People Skill Expert', description: 'Complete all modules and exercises', completed: false }
+    { title: 'Langkah Pertama', description: 'Selesaikan modul pertama Anda', completed: true, date: '2023-06-15' },
+    { title: 'Pembelajar Konsisten', description: 'Pertahankan streak 5 hari', completed: true, date: '2023-06-20' },
+    { title: 'Latihan Membuat Sempurna', description: 'Selesaikan 10 latihan praktis', completed: true, date: '2023-06-25' },
+    { title: 'Setengah Jalan', description: 'Capai kemajuan 50% secara keseluruhan', completed: false },
+    { title: 'Master Percakapan', description: 'Selesaikan semua modul percakapan', completed: false },
+    { title: 'Ahli Keterampilan Berkomunikasi', description: 'Selesaikan semua modul dan latihan', completed: false }
   ];
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Progress Tracking</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Pelacakan Kemajuan</h2>
       <p className="text-gray-600 mb-8">
-        Track your journey in mastering people skills. See how far you've come, identify areas for growth,
-        and celebrate your achievements.
+        Lacak perjalanan Anda dalam menguasai keterampilan berkomunikasi. Lihat seberapa jauh Anda telah berkembang, identifikasi area untuk pertumbuhan,
+        dan rayakan pencapaian Anda.
       </p>
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
@@ -72,8 +72,8 @@ const ProgressTracking = () => {
             <div>
               <div className="flex flex-col md:flex-row md:items-center mb-8">
                 <div className="flex-1 mb-4 md:mb-0">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Overall Progress</h3>
-                  <p className="text-gray-600">You're making steady progress on your people skills journey.</p>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Kemajuan Keseluruhan</h3>
+                  <p className="text-gray-600">Anda membuat kemajuan yang stabil dalam perjalanan keterampilan berkomunikasi Anda.</p>
                 </div>
                 <div className="flex-shrink-0 relative w-32 h-32">
                   <svg className="w-full h-full" viewBox="0 0 36 36">
@@ -105,8 +105,8 @@ const ProgressTracking = () => {
                 <div className="bg-blue-50 rounded-lg p-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-sm font-medium text-gray-500 mb-1">Daily Streak</p>
-                      <p className="text-2xl font-semibold text-gray-800">{progressData.streak} days</p>
+                      <p className="text-sm font-medium text-gray-500 mb-1">Streak Harian</p>
+                      <p className="text-2xl font-semibold text-gray-800">{progressData.streak} hari</p>
                     </div>
                     <div className="text-blue-500">
                       <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -119,7 +119,7 @@ const ProgressTracking = () => {
                 <div className="bg-blue-50 rounded-lg p-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-sm font-medium text-gray-500 mb-1">Modules Completed</p>
+                      <p className="text-sm font-medium text-gray-500 mb-1">Modul Selesai</p>
                       <p className="text-2xl font-semibold text-gray-800">{progressData.modulesCompleted}/{progressData.totalModules}</p>
                     </div>
                     <div className="text-blue-500">
@@ -133,7 +133,7 @@ const ProgressTracking = () => {
                 <div className="bg-blue-50 rounded-lg p-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-sm font-medium text-gray-500 mb-1">Challenges Completed</p>
+                      <p className="text-sm font-medium text-gray-500 mb-1">Tantangan Selesai</p>
                       <p className="text-2xl font-semibold text-gray-800">{progressData.challengesCompleted}</p>
                     </div>
                     <div className="text-blue-500">
@@ -146,7 +146,7 @@ const ProgressTracking = () => {
               </div>
               
               <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">Recent Activity</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Aktivitas Terbaru</h3>
                 <div className="bg-gray-50 rounded-lg border border-gray-200">
                   <ul className="divide-y divide-gray-200">
                     <li className="p-4">
@@ -157,8 +157,8 @@ const ProgressTracking = () => {
                           </svg>
                         </div>
                         <div>
-                          <p className="text-gray-800 font-medium">Completed "Active Listening Challenge"</p>
-                          <p className="text-gray-500 text-sm">2 hours ago</p>
+                          <p className="text-gray-800 font-medium">Menyelesaikan "Tantangan Mendengarkan Aktif"</p>
+                          <p className="text-gray-500 text-sm">2 jam yang lalu</p>
                         </div>
                       </div>
                     </li>
@@ -170,8 +170,8 @@ const ProgressTracking = () => {
                           </svg>
                         </div>
                         <div>
-                          <p className="text-gray-800 font-medium">Started "The Art of Complimenting" module</p>
-                          <p className="text-gray-500 text-sm">Yesterday</p>
+                          <p className="text-gray-800 font-medium">Memulai modul "Seni Memuji"</p>
+                          <p className="text-gray-500 text-sm">Kemarin</p>
                         </div>
                       </div>
                     </li>
@@ -183,8 +183,8 @@ const ProgressTracking = () => {
                           </svg>
                         </div>
                         <div>
-                          <p className="text-gray-800 font-medium">Earned "Consistent Learner" achievement</p>
-                          <p className="text-gray-500 text-sm">3 days ago</p>
+                          <p className="text-gray-800 font-medium">Mendapatkan pencapaian "Pembelajar Konsisten"</p>
+                          <p className="text-gray-500 text-sm">3 hari yang lalu</p>
                         </div>
                       </div>
                     </li>
@@ -196,10 +196,10 @@ const ProgressTracking = () => {
           
           {activeTab === 'skills' && (
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Skills Breakdown</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Rincian Keterampilan</h3>
               <p className="text-gray-600 mb-6">
-                See your progress across different people skills areas. Focus on improving 
-                skills with lower percentages to become well-rounded.
+                Lihat kemajuan Anda di berbagai area keterampilan berkomunikasi. Fokus pada meningkatkan 
+                keterampilan dengan persentase lebih rendah untuk menjadi lebih seimbang.
               </p>
               
               <div className="space-y-5">
@@ -216,22 +216,22 @@ const ProgressTracking = () => {
                       ></div>
                     </div>
                     <div className="flex text-sm text-gray-500 justify-between">
-                      <span>{skill.lessons} lessons completed</span>
-                      <span>{skill.exercises} exercises completed</span>
+                      <span>{skill.lessons} pelajaran selesai</span>
+                      <span>{skill.exercises} latihan selesai</span>
                     </div>
                   </div>
                 ))}
               </div>
               
               <div className="mt-8 bg-blue-50 p-4 rounded-lg">
-                <h4 className="font-medium text-blue-800 mb-2">Recommended Focus Areas:</h4>
+                <h4 className="font-medium text-blue-800 mb-2">Area Fokus yang Direkomendasikan:</h4>
                 <p className="text-gray-700 mb-4">
-                  Based on your current progress, we recommend focusing on these skills:
+                  Berdasarkan kemajuan Anda saat ini, kami merekomendasikan untuk fokus pada keterampilan ini:
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700">
-                  <li>Criticism Understanding (20%)</li>
-                  <li>Complimenting (25%)</li>
-                  <li>Conversation Skills (30%)</li>
+                  <li>Memahami Kritik (20%)</li>
+                  <li>Memuji (25%)</li>
+                  <li>Keterampilan Percakapan (30%)</li>
                 </ul>
               </div>
             </div>
@@ -239,10 +239,10 @@ const ProgressTracking = () => {
           
           {activeTab === 'achievements' && (
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Your Achievements</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Pencapaian Anda</h3>
               <p className="text-gray-600 mb-6">
-                Track your milestones and accomplishments as you develop your people skills.
-                Complete more modules and exercises to unlock additional achievements.
+                Lacak tonggak pencapaian dan prestasi Anda saat Anda mengembangkan keterampilan berkomunikasi.
+                Selesaikan lebih banyak modul dan latihan untuk membuka pencapaian tambahan.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -282,7 +282,7 @@ const ProgressTracking = () => {
                         </p>
                         {achievement.completed && achievement.date && (
                           <p className="text-xs text-green-600 mt-1">
-                            Completed on {new Date(achievement.date).toLocaleDateString()}
+                            Diselesaikan pada {new Date(achievement.date).toLocaleDateString()}
                           </p>
                         )}
                       </div>
@@ -292,9 +292,9 @@ const ProgressTracking = () => {
               </div>
               
               <div className="mt-8 bg-blue-50 p-4 rounded-lg text-center">
-                <h4 className="font-medium text-blue-800 mb-2">Keep Going!</h4>
+                <h4 className="font-medium text-blue-800 mb-2">Terus Maju!</h4>
                 <p className="text-gray-700">
-                  You've unlocked 3 out of 6 achievements. Continue practicing your people skills to earn them all!
+                  Anda telah membuka 3 dari 6 pencapaian. Lanjutkan berlatih keterampilan berkomunikasi untuk mendapatkan semuanya!
                 </p>
               </div>
             </div>

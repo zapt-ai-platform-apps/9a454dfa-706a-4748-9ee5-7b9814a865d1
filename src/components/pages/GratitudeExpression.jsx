@@ -4,14 +4,14 @@ const GratitudeExpression = () => {
   const [activeTab, setActiveTab] = useState('principles');
   const [newGratitude, setNewGratitude] = useState('');
   const [gratitudeList, setGratitudeList] = useState([
-    "My colleague who stayed late to help me finish an important project",
-    "The barista who remembered my usual order and had it ready"
+    "Rekan kerja saya yang tinggal lebih lama untuk membantu saya menyelesaikan proyek penting",
+    "Barista yang mengingat pesanan biasa saya dan telah menyiapkannya"
   ]);
 
   const tabs = [
-    { id: 'principles', label: 'Principles' },
-    { id: 'practice', label: 'Practice' },
-    { id: 'log', label: 'Gratitude Log' }
+    { id: 'principles', label: 'Prinsip' },
+    { id: 'practice', label: 'Praktik' },
+    { id: 'log', label: 'Catatan Syukur' }
   ];
 
   const handleAddGratitude = () => {
@@ -23,10 +23,10 @@ const GratitudeExpression = () => {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Expressing Gratitude</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Mengungkapkan Syukur</h2>
       <p className="text-gray-600 mb-8">
-        Learn how to express sincere appreciation effectively. Gratitude strengthens relationships,
-        improves your own wellbeing, and creates positive environments in both personal and professional settings.
+        Pelajari cara mengungkapkan penghargaan tulus secara efektif. Syukur memperkuat hubungan,
+        meningkatkan kesejahteraan Anda sendiri, dan menciptakan lingkungan positif dalam pengaturan pribadi dan profesional.
       </p>
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
@@ -51,37 +51,37 @@ const GratitudeExpression = () => {
         <div className="p-6">
           {activeTab === 'principles' && (
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">The Power of Gratitude</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Kekuatan Syukur</h3>
               <p className="text-gray-600 mb-6">
-                Expressing gratitude properly goes beyond saying "thanks." When done effectively, it creates a meaningful
-                connection and leaves a lasting positive impression.
+                Mengungkapkan rasa syukur dengan benar lebih dari sekadar mengucapkan "terima kasih." Ketika dilakukan secara efektif, itu menciptakan koneksi yang berarti
+                dan meninggalkan kesan positif yang bertahan lama.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-medium text-blue-800 mb-2">Benefits for the Recipient:</h4>
+                  <h4 className="font-medium text-blue-800 mb-2">Manfaat bagi Penerima:</h4>
                   <ul className="list-disc list-inside space-y-1 text-gray-700">
-                    <li>Feels valued and appreciated</li>
-                    <li>Experiences increased motivation</li>
-                    <li>More likely to continue helpful behaviors</li>
-                    <li>Develops stronger connection with you</li>
-                    <li>Experiences improved mood and well-being</li>
+                    <li>Merasa dihargai dan diapresiasi</li>
+                    <li>Mengalami peningkatan motivasi</li>
+                    <li>Lebih cenderung melanjutkan perilaku yang membantu</li>
+                    <li>Mengembangkan koneksi yang lebih kuat dengan Anda</li>
+                    <li>Mengalami peningkatan suasana hati dan kesejahteraan</li>
                   </ul>
                 </div>
                 
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-medium text-blue-800 mb-2">Benefits for You:</h4>
+                  <h4 className="font-medium text-blue-800 mb-2">Manfaat bagi Anda:</h4>
                   <ul className="list-disc list-inside space-y-1 text-gray-700">
-                    <li>Improves your own psychological health</li>
-                    <li>Strengthens your relationships</li>
-                    <li>Enhances your reputation and likability</li>
-                    <li>Increases your own happiness and satisfaction</li>
-                    <li>Helps you notice positive aspects of life</li>
+                    <li>Meningkatkan kesehatan psikologis Anda sendiri</li>
+                    <li>Memperkuat hubungan Anda</li>
+                    <li>Meningkatkan reputasi dan keramahan Anda</li>
+                    <li>Meningkatkan kebahagiaan dan kepuasan Anda sendiri</li>
+                    <li>Membantu Anda memperhatikan aspek positif kehidupan</li>
                   </ul>
                 </div>
               </div>
               
-              <h4 className="font-semibold text-gray-800 mb-3">The 5 Elements of Effective Gratitude:</h4>
+              <h4 className="font-semibold text-gray-800 mb-3">5 Elemen Syukur yang Efektif:</h4>
               
               <div className="space-y-5 mb-6">
                 <div className="flex items-start">
@@ -91,11 +91,11 @@ const GratitudeExpression = () => {
                     </svg>
                   </div>
                   <div>
-                    <h5 className="font-medium text-gray-800 mb-1">Be Specific</h5>
-                    <p className="text-gray-600">Describe exactly what the person did that you appreciate rather than using generic phrases.</p>
+                    <h5 className="font-medium text-gray-800 mb-1">Jadilah Spesifik</h5>
+                    <p className="text-gray-600">Jelaskan dengan tepat apa yang dilakukan seseorang yang Anda hargai daripada menggunakan frasa umum.</p>
                     <div className="mt-2 bg-gray-50 p-2 rounded text-sm">
-                      <span className="text-red-600 block mb-1">Instead of: "Thanks for your help."</span>
-                      <span className="text-green-600">Better: "Thank you for staying late yesterday to help me troubleshoot those technical issues. Your expertise with the database saved me hours of work."</span>
+                      <span className="text-red-600 block mb-1">Alih-alih: "Terima kasih atas bantuan Anda."</span>
+                      <span className="text-green-600">Lebih baik: "Terima kasih telah tinggal lebih lama kemarin untuk membantu saya mengatasi masalah teknis. Keahlian Anda dengan database menghemat waktu saya berjam-jam."</span>
                     </div>
                   </div>
                 </div>
@@ -107,10 +107,10 @@ const GratitudeExpression = () => {
                     </svg>
                   </div>
                   <div>
-                    <h5 className="font-medium text-gray-800 mb-1">Acknowledge the Effort</h5>
-                    <p className="text-gray-600">Recognize the time, energy, thought, or sacrifice that went into their action.</p>
+                    <h5 className="font-medium text-gray-800 mb-1">Akui Usahanya</h5>
+                    <p className="text-gray-600">Kenali waktu, energi, pikiran, atau pengorbanan yang terlibat dalam tindakan mereka.</p>
                     <div className="mt-2 bg-gray-50 p-2 rounded text-sm">
-                      <span className="text-green-600">"I know how busy you are with your own deadlines, which makes me even more grateful that you took the time to review my presentation and give such thoughtful feedback."</span>
+                      <span className="text-green-600">"Saya tahu betapa sibuknya Anda dengan tenggat waktu Anda sendiri, yang membuat saya semakin berterima kasih karena Anda meluangkan waktu untuk meninjau presentasi saya dan memberikan umpan balik yang begitu teliti."</span>
                     </div>
                   </div>
                 </div>
@@ -122,10 +122,10 @@ const GratitudeExpression = () => {
                     </svg>
                   </div>
                   <div>
-                    <h5 className="font-medium text-gray-800 mb-1">Explain the Impact</h5>
-                    <p className="text-gray-600">Describe how their action positively affected you or others.</p>
+                    <h5 className="font-medium text-gray-800 mb-1">Jelaskan Dampaknya</h5>
+                    <p className="text-gray-600">Jelaskan bagaimana tindakan mereka secara positif memengaruhi Anda atau orang lain.</p>
                     <div className="mt-2 bg-gray-50 p-2 rounded text-sm">
-                      <span className="text-green-600">"Your encouragement during our weekly meetings has helped me feel more confident about speaking up. In fact, I was able to present my ideas to the executive team last week because of the confidence I've built."</span>
+                      <span className="text-green-600">"Dorongan Anda selama pertemuan mingguan telah membantu saya merasa lebih percaya diri tentang berbicara. Bahkan, saya bisa menyampaikan ide-ide saya kepada tim eksekutif minggu lalu karena kepercayaan diri yang telah saya bangun."</span>
                     </div>
                   </div>
                 </div>
@@ -137,10 +137,10 @@ const GratitudeExpression = () => {
                     </svg>
                   </div>
                   <div>
-                    <h5 className="font-medium text-gray-800 mb-1">Make It About Them</h5>
-                    <p className="text-gray-600">Focus on their qualities or character traits that the action demonstrated.</p>
+                    <h5 className="font-medium text-gray-800 mb-1">Jadikan tentang Mereka</h5>
+                    <p className="text-gray-600">Fokus pada kualitas atau sifat karakter mereka yang ditunjukkan oleh tindakan tersebut.</p>
                     <div className="mt-2 bg-gray-50 p-2 rounded text-sm">
-                      <span className="text-green-600">"The way you handled that difficult customer situation showed incredible patience and empathy. Your ability to stay calm under pressure and find solutions is impressive."</span>
+                      <span className="text-green-600">"Cara Anda menangani situasi pelanggan yang sulit itu menunjukkan kesabaran dan empati yang luar biasa. Kemampuan Anda untuk tetap tenang di bawah tekanan dan menemukan solusi sangat mengesankan."</span>
                     </div>
                   </div>
                 </div>
@@ -152,10 +152,10 @@ const GratitudeExpression = () => {
                     </svg>
                   </div>
                   <div>
-                    <h5 className="font-medium text-gray-800 mb-1">Be Authentic</h5>
-                    <p className="text-gray-600">Express your gratitude with genuine emotion rather than formulaic phrases.</p>
+                    <h5 className="font-medium text-gray-800 mb-1">Bersikaplah Tulus</h5>
+                    <p className="text-gray-600">Ungkapkan rasa syukur Anda dengan emosi yang tulus daripada frasa formal.</p>
                     <div className="mt-2 bg-gray-50 p-2 rounded text-sm">
-                      <span className="text-green-600">"I was really touched by your thoughtfulness in remembering my birthday. The personal note you included with the gift made me feel truly valued as your friend."</span>
+                      <span className="text-green-600">"Saya sangat tersentuh oleh perhatian Anda dalam mengingat ulang tahun saya. Catatan pribadi yang Anda sertakan dengan hadiah membuat saya merasa benar-benar dihargai sebagai teman Anda."</span>
                     </div>
                   </div>
                 </div>
@@ -165,52 +165,52 @@ const GratitudeExpression = () => {
           
           {activeTab === 'practice' && (
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Gratitude Practice Scenarios</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Skenario Praktik Syukur</h3>
               <p className="text-gray-600 mb-6">
-                For each scenario, craft a thoughtful expression of gratitude using the principles you've learned.
+                Untuk setiap skenario, buatlah ungkapan syukur yang penuh perhatian menggunakan prinsip-prinsip yang telah Anda pelajari.
               </p>
               
               <div className="space-y-6">
                 <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-                  <h4 className="font-medium text-gray-800 mb-2">Scenario 1: Professional Help</h4>
+                  <h4 className="font-medium text-gray-800 mb-2">Skenario 1: Bantuan Profesional</h4>
                   <p className="text-gray-700 mb-4">
-                    A colleague spent two hours helping you prepare for an important presentation, giving you valuable feedback and suggestions.
+                    Seorang rekan kerja menghabiskan dua jam membantu Anda mempersiapkan presentasi penting, memberikan umpan balik dan saran yang berharga.
                   </p>
                   <textarea 
                     className="w-full p-3 border border-gray-300 rounded-md box-border" 
                     rows="3"
-                    placeholder="Write your gratitude expression here..."
+                    placeholder="Tulis ungkapan syukur Anda di sini..."
                   ></textarea>
                 </div>
                 
                 <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-                  <h4 className="font-medium text-gray-800 mb-2">Scenario 2: Personal Support</h4>
+                  <h4 className="font-medium text-gray-800 mb-2">Skenario 2: Dukungan Pribadi</h4>
                   <p className="text-gray-700 mb-4">
-                    A friend listened supportively for over an hour as you talked through a difficult personal situation, offering empathy without judgment.
+                    Seorang teman mendengarkan dengan penuh dukungan selama lebih dari satu jam saat Anda membicarakan situasi pribadi yang sulit, menawarkan empati tanpa menghakimi.
                   </p>
                   <textarea 
                     className="w-full p-3 border border-gray-300 rounded-md box-border" 
                     rows="3"
-                    placeholder="Write your gratitude expression here..."
+                    placeholder="Tulis ungkapan syukur Anda di sini..."
                   ></textarea>
                 </div>
                 
                 <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-                  <h4 className="font-medium text-gray-800 mb-2">Scenario 3: Everyday Kindness</h4>
+                  <h4 className="font-medium text-gray-800 mb-2">Skenario 3: Kebaikan Sehari-hari</h4>
                   <p className="text-gray-700 mb-4">
-                    A neighbor noticed you were away and collected your packages, keeping them safe until you returned.
+                    Seorang tetangga memperhatikan Anda sedang pergi dan mengumpulkan paket Anda, menjaganya tetap aman sampai Anda kembali.
                   </p>
                   <textarea 
                     className="w-full p-3 border border-gray-300 rounded-md box-border" 
                     rows="3"
-                    placeholder="Write your gratitude expression here..."
+                    placeholder="Tulis ungkapan syukur Anda di sini..."
                   ></textarea>
                 </div>
               </div>
               
               <div className="mt-6">
                 <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-                  Submit for Feedback
+                  Kirim untuk Umpan Balik
                 </button>
               </div>
             </div>
@@ -218,23 +218,23 @@ const GratitudeExpression = () => {
           
           {activeTab === 'log' && (
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Your Gratitude Log</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Catatan Syukur Anda</h3>
               <p className="text-gray-600 mb-6">
-                Regularly recording what you're grateful for helps build your gratitude muscle and enhances wellbeing.
-                Add to your log whenever you notice something you appreciate.
+                Secara teratur mencatat apa yang Anda syukuri membantu membangun otot syukur dan meningkatkan kesejahteraan.
+                Tambahkan ke catatan Anda setiap kali Anda memperhatikan sesuatu yang Anda hargai.
               </p>
               
               <div className="mb-6">
                 <div className="flex items-end gap-2 mb-4">
                   <div className="flex-1">
                     <label htmlFor="newGratitude" className="block text-sm font-medium text-gray-700 mb-1">
-                      I'm grateful for:
+                      Saya bersyukur untuk:
                     </label>
                     <input 
                       type="text" 
                       id="newGratitude"
                       className="w-full p-2 border border-gray-300 rounded-md box-border" 
-                      placeholder="Add new gratitude here..."
+                      placeholder="Tambahkan rasa syukur baru di sini..."
                       value={newGratitude}
                       onChange={(e) => setNewGratitude(e.target.value)}
                     />
@@ -248,7 +248,7 @@ const GratitudeExpression = () => {
                         : 'bg-gray-200 text-gray-400 cursor-not-allowed'
                     } transition-colors`}
                   >
-                    Add
+                    Tambah
                   </button>
                 </div>
                 
@@ -265,7 +265,7 @@ const GratitudeExpression = () => {
                       ))
                     ) : (
                       <li className="p-3 text-gray-500 text-center">
-                        Your gratitude log is empty. Add some gratitude to get started!
+                        Catatan syukur Anda kosong. Tambahkan beberapa rasa syukur untuk memulai!
                       </li>
                     )}
                   </ul>
@@ -273,13 +273,13 @@ const GratitudeExpression = () => {
               </div>
               
               <div className="bg-blue-50 p-4 rounded-lg">
-                <h4 className="font-medium text-blue-800 mb-2">Gratitude Log Benefits:</h4>
+                <h4 className="font-medium text-blue-800 mb-2">Manfaat Catatan Syukur:</h4>
                 <ul className="list-disc list-inside space-y-1 text-gray-700">
-                  <li>Trains your mind to notice positive aspects of life</li>
-                  <li>Reduces stress and improves emotional wellbeing</li>
-                  <li>Creates a resource of positive thoughts for challenging days</li>
-                  <li>Helps identify who deserves your expressed thanks</li>
-                  <li>Builds the habit of gratitude in your daily life</li>
+                  <li>Melatih pikiran Anda untuk memperhatikan aspek positif kehidupan</li>
+                  <li>Mengurangi stres dan meningkatkan kesejahteraan emosional</li>
+                  <li>Menciptakan sumber pemikiran positif untuk hari-hari yang menantang</li>
+                  <li>Membantu mengidentifikasi siapa yang layak mendapat ucapan terima kasih Anda</li>
+                  <li>Membangun kebiasaan bersyukur dalam kehidupan sehari-hari Anda</li>
                 </ul>
               </div>
             </div>

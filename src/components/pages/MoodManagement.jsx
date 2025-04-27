@@ -3,63 +3,63 @@ import React from 'react';
 const MoodManagement = () => {
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Mood Management</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Manajemen Suasana Hati</h2>
       <p className="text-gray-600 mb-8">
-        Learn techniques to create positive atmospheres in your interactions, manage emotional states,
-        and make strong first impressions through your mood and expressions.
+        Pelajari teknik untuk menciptakan suasana positif dalam interaksi Anda, mengelola keadaan emosional,
+        dan membuat kesan pertama yang kuat melalui suasana hati dan ekspresi Anda.
       </p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-5">
-            <h3 className="text-xl font-bold mb-2">The First Impression</h3>
+            <h3 className="text-xl font-bold mb-2">Kesan Pertama</h3>
             <p className="text-sm text-blue-100">
-              The first few seconds of any interaction set the tone for everything that follows.
+              Beberapa detik pertama dari setiap interaksi menentukan nada untuk semua yang mengikuti.
             </p>
           </div>
           <div className="p-5">
             <p className="text-gray-600 mb-4">
-              Research shows that people form impressions within the first 7 seconds of meeting someone.
-              Your facial expression, posture, and initial greeting all contribute to this crucial moment.
+              Penelitian menunjukkan bahwa orang membentuk kesan dalam 7 detik pertama bertemu seseorang.
+              Ekspresi wajah, postur, dan salam awal Anda semuanya berkontribusi pada momen penting ini.
             </p>
             <div className="bg-blue-50 p-4 rounded-lg mb-4">
-              <h4 className="font-medium text-blue-800 mb-2">Key Practice Points:</h4>
+              <h4 className="font-medium text-blue-800 mb-2">Poin-poin Praktik Utama:</h4>
               <ul className="list-disc list-inside text-gray-700 space-y-1">
-                <li>Smile genuinely before the interaction begins</li>
-                <li>Make confident but friendly eye contact</li>
-                <li>Use an upright, open posture</li>
-                <li>Speak with warmth and appropriate energy</li>
+                <li>Tersenyum dengan tulus sebelum interaksi dimulai</li>
+                <li>Lakukan kontak mata yang percaya diri namun ramah</li>
+                <li>Gunakan postur tegak, terbuka</li>
+                <li>Bicaralah dengan kehangatan dan energi yang sesuai</li>
               </ul>
             </div>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-              Practice Exercises
+              Latihan Praktik
             </button>
           </div>
         </div>
         
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-5">
-            <h3 className="text-xl font-bold mb-2">The Power of a Smile</h3>
+            <h3 className="text-xl font-bold mb-2">Kekuatan Senyuman</h3>
             <p className="text-sm text-blue-100">
-              A genuine smile is your most effective tool for creating positive connections.
+              Senyuman tulus adalah alat paling efektif Anda untuk menciptakan koneksi positif.
             </p>
           </div>
           <div className="p-5">
             <p className="text-gray-600 mb-4">
-              Smiling doesn't just affect how others perceive you—it actually changes your own
-              brain chemistry, creating a positive feedback loop that improves your mood and the
-              quality of your interactions.
+              Tersenyum tidak hanya memengaruhi bagaimana orang lain memandang Anda—ini sebenarnya mengubah kimia otak Anda sendiri,
+              menciptakan siklus umpan balik positif yang meningkatkan suasana hati Anda dan
+              kualitas interaksi Anda.
             </p>
             <div className="bg-blue-50 p-4 rounded-lg mb-4">
-              <h4 className="font-medium text-blue-800 mb-2">Types of Smiles:</h4>
+              <h4 className="font-medium text-blue-800 mb-2">Jenis Senyuman:</h4>
               <ul className="list-disc list-inside text-gray-700 space-y-1">
-                <li><span className="font-medium">Duchenne smile</span>: A genuine smile that involves both the mouth and eyes</li>
-                <li><span className="font-medium">Social smile</span>: A polite smile that primarily uses mouth muscles</li>
-                <li><span className="font-medium">Empathetic smile</span>: A warm, understanding smile during sensitive conversations</li>
+                <li><span className="font-medium">Senyum Duchenne</span>: Senyum tulus yang melibatkan mulut dan mata</li>
+                <li><span className="font-medium">Senyum sosial</span>: Senyum sopan yang terutama menggunakan otot mulut</li>
+                <li><span className="font-medium">Senyum empatik</span>: Senyum hangat, penuh pengertian selama percakapan sensitif</li>
               </ul>
             </div>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-              Smile Techniques
+              Teknik Senyum
             </button>
           </div>
         </div>
@@ -67,10 +67,10 @@ const MoodManagement = () => {
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
         <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Mood Recovery Techniques</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Teknik Pemulihan Suasana Hati</h3>
           <p className="text-gray-600 mb-6">
-            Even when you're not feeling your best, these techniques can help you manage your mood
-            to maintain positive interactions with others.
+            Bahkan ketika Anda tidak merasa terbaik, teknik-teknik ini dapat membantu Anda mengelola suasana hati Anda
+            untuk mempertahankan interaksi positif dengan orang lain.
           </p>
           
           <div className="space-y-6">
@@ -81,9 +81,9 @@ const MoodManagement = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Physical State Change</h4>
-                <p className="text-gray-600 mb-2">Change your physiology to change your psychology. Stand up, move around, and adjust your posture.</p>
-                <button className="text-blue-600 text-sm font-medium hover:text-blue-800 transition-colors">Try it now →</button>
+                <h4 className="font-semibold text-gray-800 mb-1">Perubahan Keadaan Fisik</h4>
+                <p className="text-gray-600 mb-2">Ubah fisiologi Anda untuk mengubah psikologi Anda. Berdiri, bergerak, dan sesuaikan postur Anda.</p>
+                <button className="text-blue-600 text-sm font-medium hover:text-blue-800 transition-colors">Coba sekarang →</button>
               </div>
             </div>
             
@@ -94,9 +94,9 @@ const MoodManagement = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">The Facial Feedback Loop</h4>
-                <p className="text-gray-600 mb-2">Your facial expressions affect your emotions. Intentionally smiling, even when forced at first, can genuinely improve your mood.</p>
-                <button className="text-blue-600 text-sm font-medium hover:text-blue-800 transition-colors">Learn technique →</button>
+                <h4 className="font-semibold text-gray-800 mb-1">Loop Umpan Balik Wajah</h4>
+                <p className="text-gray-600 mb-2">Ekspresi wajah Anda memengaruhi emosi Anda. Sengaja tersenyum, bahkan ketika dipaksakan pada awalnya, dapat benar-benar meningkatkan suasana hati Anda.</p>
+                <button className="text-blue-600 text-sm font-medium hover:text-blue-800 transition-colors">Pelajari teknik →</button>
               </div>
             </div>
             
@@ -107,9 +107,9 @@ const MoodManagement = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Voice Modulation</h4>
-                <p className="text-gray-600 mb-2">The tone, pace, and volume of your voice affects both your mood and how others perceive you. Practice conscious voice control.</p>
-                <button className="text-blue-600 text-sm font-medium hover:text-blue-800 transition-colors">Voice exercises →</button>
+                <h4 className="font-semibold text-gray-800 mb-1">Modulasi Suara</h4>
+                <p className="text-gray-600 mb-2">Nada, kecepatan, dan volume suara Anda memengaruhi baik suasana hati Anda dan bagaimana orang lain melihat Anda. Praktikkan kontrol suara yang sadar.</p>
+                <button className="text-blue-600 text-sm font-medium hover:text-blue-800 transition-colors">Latihan suara →</button>
               </div>
             </div>
           </div>
@@ -118,44 +118,44 @@ const MoodManagement = () => {
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
         <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Interactive Practice: First Impression Simulator</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Praktik Interaktif: Simulator Kesan Pertama</h3>
           <p className="text-gray-600 mb-6">
-            This exercise simulates various first meeting scenarios to help you practice making positive first impressions.
+            Latihan ini mensimulasikan berbagai skenario pertemuan pertama untuk membantu Anda berlatih membuat kesan pertama yang positif.
           </p>
           
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-5 mb-6">
-            <h4 className="font-semibold text-gray-800 mb-4">Scenario: Job Interview First Meeting</h4>
+            <h4 className="font-semibold text-gray-800 mb-4">Skenario: Pertemuan Pertama Wawancara Kerja</h4>
             <p className="text-gray-700 mb-4">
-              You're arriving for an important job interview. As you enter the room, the interviewer stands to greet you.
-              What elements should you focus on in those critical first few seconds?
+              Anda tiba untuk wawancara kerja penting. Saat Anda memasuki ruangan, pewawancara berdiri untuk menyambut Anda.
+              Elemen apa yang harus Anda fokuskan dalam beberapa detik penting pertama itu?
             </p>
             
             <div className="space-y-3">
               <div className="flex items-center">
                 <input type="checkbox" id="element1" className="mr-2" />
-                <label htmlFor="element1" className="text-gray-700">Make eye contact and offer a genuine smile</label>
+                <label htmlFor="element1" className="text-gray-700">Lakukan kontak mata dan tawarkan senyuman tulus</label>
               </div>
               <div className="flex items-center">
                 <input type="checkbox" id="element2" className="mr-2" />
-                <label htmlFor="element2" className="text-gray-700">Firm but not aggressive handshake</label>
+                <label htmlFor="element2" className="text-gray-700">Jabatan tangan yang mantap tapi tidak agresif</label>
               </div>
               <div className="flex items-center">
                 <input type="checkbox" id="element3" className="mr-2" />
-                <label htmlFor="element3" className="text-gray-700">Immediately list your qualifications</label>
+                <label htmlFor="element3" className="text-gray-700">Langsung menyebutkan kualifikasi Anda</label>
               </div>
               <div className="flex items-center">
                 <input type="checkbox" id="element4" className="mr-2" />
-                <label htmlFor="element4" className="text-gray-700">Upright, confident posture</label>
+                <label htmlFor="element4" className="text-gray-700">Postur tegak, percaya diri</label>
               </div>
               <div className="flex items-center">
                 <input type="checkbox" id="element5" className="mr-2" />
-                <label htmlFor="element5" className="text-gray-700">Warm, clear greeting using the interviewer's name</label>
+                <label htmlFor="element5" className="text-gray-700">Salam yang hangat, jelas menggunakan nama pewawancara</label>
               </div>
             </div>
           </div>
           
           <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-            Check My Approach
+            Periksa Pendekatan Saya
           </button>
         </div>
       </div>

@@ -17,15 +17,15 @@ const Header = ({ toggleSidebar }) => {
           <div className="flex items-center">
             <img 
               src="https://supabase.zapt.ai/storage/v1/render/image/public/icons/9a454dfa-706a-4748-9ee5-7b9814a865d1/e7d57c4b-b879-4780-aa21-ec4c757ad182.png?width=64&height=64" 
-              alt="Skill with people logo" 
+              alt="Logo Keahlian Berkomunikasi" 
               className="h-8 w-8 mr-2"
             />
-            <h1 className="text-xl font-bold">Skill with people</h1>
+            <h1 className="text-xl font-bold">Keahlian Berkomunikasi</h1>
           </div>
         </div>
         <div className="hidden md:flex items-center space-x-4">
           <button className="px-3 py-1.5 bg-white text-blue-600 rounded-md font-medium cursor-pointer hover:bg-blue-50 transition">
-            Today's Challenge
+            Tantangan Hari Ini
           </button>
         </div>
       </div>

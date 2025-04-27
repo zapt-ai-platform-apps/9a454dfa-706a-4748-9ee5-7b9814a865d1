@@ -4,17 +4,17 @@ const ApprovalTechniques = () => {
   const [activeTab, setActiveTab] = useState('yes-questions');
 
   const tabs = [
-    { id: 'yes-questions', label: 'Yes Questions' },
-    { id: 'beneficial-reasons', label: 'Beneficial Reasons' },
-    { id: 'yes-choices', label: 'Yes Choices' }
+    { id: 'yes-questions', label: 'Pertanyaan Ya' },
+    { id: 'beneficial-reasons', label: 'Alasan Bermanfaat' },
+    { id: 'yes-choices', label: 'Pilihan Ya' }
   ];
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Getting Approval</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Mendapatkan Persetujuan</h2>
       <p className="text-gray-600 mb-8">
-        Learn techniques that increase your chances of getting people to agree with you. These methods help
-        create a cooperative mindset and make it easier for others to say yes to your requests.
+        Pelajari teknik yang meningkatkan peluang Anda untuk membuat orang setuju dengan Anda. Metode ini membantu
+        menciptakan pola pikir kooperatif dan memudahkan orang lain untuk mengatakan ya pada permintaan Anda.
       </p>
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
@@ -39,168 +39,168 @@ const ApprovalTechniques = () => {
         <div className="p-6">
           {activeTab === 'yes-questions' && (
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">The Power of Yes Questions</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Kekuatan Pertanyaan Ya</h3>
               <p className="text-gray-600 mb-6">
-                When you want someone to say yes to a bigger request, start by asking smaller questions they can easily agree to. 
-                This establishes a pattern of agreement that makes it more likely they'll continue agreeing.
+                Ketika Anda ingin seseorang mengatakan ya pada permintaan yang lebih besar, mulailah dengan mengajukan pertanyaan yang lebih kecil yang dapat dengan mudah mereka setujui. 
+                Ini membangun pola persetujuan yang membuat mereka lebih mungkin untuk terus setuju.
               </p>
               
               <div className="bg-blue-50 p-4 rounded-lg mb-6">
-                <h4 className="font-medium text-blue-800 mb-2">Example</h4>
+                <h4 className="font-medium text-blue-800 mb-2">Contoh</h4>
                 <p className="text-gray-700 mb-3">
-                  Instead of directly asking "Would you help me with this project this weekend?" try this sequence:
+                  Alih-alih langsung bertanya "Maukah Anda membantu saya dengan proyek ini akhir pekan ini?" coba urutan ini:
                 </p>
                 <ol className="list-decimal list-inside space-y-1 text-gray-700">
-                  <li>"Do you think this project is important for our team?" (First yes)</li>
-                  <li>"Would you agree that finishing it soon would benefit everyone?" (Second yes)</li>
-                  <li>"Would you be able to spare a few hours this weekend to help me complete it?" (Target yes)</li>
+                  <li>"Menurut Anda apakah proyek ini penting untuk tim kita?" (Ya pertama)</li>
+                  <li>"Apakah Anda setuju bahwa menyelesaikannya segera akan menguntungkan semua orang?" (Ya kedua)</li>
+                  <li>"Maukah Anda meluangkan beberapa jam di akhir pekan ini untuk membantu saya menyelesaikannya?" (Ya target)</li>
                 </ol>
               </div>
               
               <div className="mb-6">
-                <h4 className="font-medium text-gray-800 mb-2">Practice Exercise:</h4>
+                <h4 className="font-medium text-gray-800 mb-2">Latihan Praktik:</h4>
                 <div className="bg-gray-50 p-4 rounded-md border border-gray-200">
                   <p className="text-gray-700 mb-4">
-                    Scenario: You want to convince a colleague to join a new committee at work.
+                    Skenario: Anda ingin meyakinkan rekan kerja untuk bergabung dengan komite baru di tempat kerja.
                   </p>
                   <div className="space-y-3">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">
-                        First "yes" question:
+                        Pertanyaan "ya" pertama:
                       </label>
-                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md box-border" placeholder="Type your question here..." />
+                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md box-border" placeholder="Ketik pertanyaan Anda di sini..." />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Second "yes" question:
+                        Pertanyaan "ya" kedua:
                       </label>
-                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md box-border" placeholder="Type your question here..." />
+                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md box-border" placeholder="Ketik pertanyaan Anda di sini..." />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Final request:
+                        Permintaan akhir:
                       </label>
-                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md box-border" placeholder="Type your request here..." />
+                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md box-border" placeholder="Ketik permintaan Anda di sini..." />
                     </div>
                   </div>
                 </div>
               </div>
               
               <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-                Check My Approach
+                Periksa Pendekatan Saya
               </button>
             </div>
           )}
           
           {activeTab === 'beneficial-reasons' && (
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Providing Beneficial Reasons</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Memberikan Alasan Bermanfaat</h3>
               <p className="text-gray-600 mb-6">
-                People are more likely to agree when they understand how it benefits them. Always frame your request
-                in terms of what the other person gains, not just what you need.
+                Orang lebih cenderung setuju ketika mereka memahami bagaimana hal itu menguntungkan mereka. Selalu sampaikan permintaan Anda
+                dari segi apa yang diperoleh orang lain, bukan hanya apa yang Anda butuhkan.
               </p>
               
               <div className="bg-blue-50 p-4 rounded-lg mb-6">
-                <h4 className="font-medium text-blue-800 mb-2">Example</h4>
+                <h4 className="font-medium text-blue-800 mb-2">Contoh</h4>
                 <div className="space-y-3">
                   <div className="flex items-start">
                     <div className="flex-shrink-0 text-red-500 mr-3">✗</div>
                     <div>
-                      <p className="text-gray-700 font-medium">Ineffective approach:</p>
-                      <p className="text-gray-600">"I need you to cover my shift on Saturday because I want to attend a concert."</p>
+                      <p className="text-gray-700 font-medium">Pendekatan tidak efektif:</p>
+                      <p className="text-gray-600">"Saya butuh Anda untuk menggantikan shift saya pada hari Sabtu karena saya ingin menghadiri konser."</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start">
                     <div className="flex-shrink-0 text-green-500 mr-3">✓</div>
                     <div>
-                      <p className="text-gray-700 font-medium">Effective approach:</p>
-                      <p className="text-gray-600">"Would you be willing to cover my shift on Saturday? I'd be happy to take your Sunday shift next weekend, which would give you a full day off for that family event you mentioned."</p>
+                      <p className="text-gray-700 font-medium">Pendekatan efektif:</p>
+                      <p className="text-gray-600">"Maukah Anda bersedia menggantikan shift saya pada hari Sabtu? Saya akan dengan senang hati mengambil shift Minggu Anda minggu depan, yang akan memberi Anda hari libur penuh untuk acara keluarga yang Anda sebutkan."</p>
                     </div>
                   </div>
                 </div>
               </div>
               
               <div className="mb-6">
-                <h4 className="font-medium text-gray-800 mb-2">Practice Exercise:</h4>
+                <h4 className="font-medium text-gray-800 mb-2">Latihan Praktik:</h4>
                 <div className="bg-gray-50 p-4 rounded-md border border-gray-200">
                   <p className="text-gray-700 mb-4">
-                    Scenario: You want a teammate to help you prepare for an upcoming presentation.
+                    Skenario: Anda ingin rekan satu tim membantu Anda mempersiapkan presentasi yang akan datang.
                   </p>
                   <div className="space-y-3">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Rewrite this request to focus on their benefit:
+                        Tulis ulang permintaan ini untuk fokus pada manfaat mereka:
                       </label>
                       <p className="text-sm text-gray-500 mb-2">
-                        "I need your help reviewing my presentation slides this afternoon because I'm nervous about presenting tomorrow."
+                        "Saya butuh bantuan Anda untuk meninjau slide presentasi saya sore ini karena saya gugup tentang presentasi besok."
                       </p>
-                      <textarea className="w-full p-2 border border-gray-300 rounded-md box-border" rows="3" placeholder="Rewrite the request here..."></textarea>
+                      <textarea className="w-full p-2 border border-gray-300 rounded-md box-border" rows="3" placeholder="Tulis ulang permintaan di sini..."></textarea>
                     </div>
                   </div>
                 </div>
               </div>
               
               <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-                Check My Approach
+                Periksa Pendekatan Saya
               </button>
             </div>
           )}
           
           {activeTab === 'yes-choices' && (
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Offering Yes Choices</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Menawarkan Pilihan Ya</h3>
               <p className="text-gray-600 mb-6">
-                Instead of asking for a single yes-or-no decision, offer choices where both options are acceptable to you.
-                This gives the other person a sense of control while still achieving your goal.
+                Alih-alih meminta keputusan ya-atau-tidak tunggal, tawarkan pilihan di mana kedua opsi dapat diterima oleh Anda.
+                Ini memberi orang lain rasa kendali sambil tetap mencapai tujuan Anda.
               </p>
               
               <div className="bg-blue-50 p-4 rounded-lg mb-6">
-                <h4 className="font-medium text-blue-800 mb-2">Example</h4>
+                <h4 className="font-medium text-blue-800 mb-2">Contoh</h4>
                 <div className="space-y-3">
                   <div className="flex items-start">
                     <div className="flex-shrink-0 text-red-500 mr-3">✗</div>
                     <div>
-                      <p className="text-gray-700 font-medium">Less effective approach:</p>
-                      <p className="text-gray-600">"Can we meet to discuss this project?"</p>
+                      <p className="text-gray-700 font-medium">Pendekatan kurang efektif:</p>
+                      <p className="text-gray-600">"Bisakah kita bertemu untuk membahas proyek ini?"</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start">
                     <div className="flex-shrink-0 text-green-500 mr-3">✓</div>
                     <div>
-                      <p className="text-gray-700 font-medium">More effective approach:</p>
-                      <p className="text-gray-600">"Would Tuesday at 2pm or Wednesday morning work better for you to discuss this project?"</p>
+                      <p className="text-gray-700 font-medium">Pendekatan lebih efektif:</p>
+                      <p className="text-gray-600">"Apakah Selasa jam 2 sore atau Rabu pagi lebih baik bagi Anda untuk membahas proyek ini?"</p>
                     </div>
                   </div>
                 </div>
               </div>
               
               <div className="mb-6">
-                <h4 className="font-medium text-gray-800 mb-2">Practice Exercise:</h4>
+                <h4 className="font-medium text-gray-800 mb-2">Latihan Praktik:</h4>
                 <div className="bg-gray-50 p-4 rounded-md border border-gray-200">
                   <p className="text-gray-700 mb-4">
-                    For each scenario, rewrite the question to offer yes choices:
+                    Untuk setiap skenario, tulis ulang pertanyaan untuk menawarkan pilihan ya:
                   </p>
                   <div className="space-y-4">
                     <div>
                       <p className="text-sm text-gray-700 mb-1">
-                        "Do you want to go to dinner on Friday?"
+                        "Apakah Anda ingin makan malam pada hari Jumat?"
                       </p>
-                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md box-border" placeholder="Rewrite with yes choices..." />
+                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md box-border" placeholder="Tulis ulang dengan pilihan ya..." />
                     </div>
                     <div>
                       <p className="text-sm text-gray-700 mb-1">
-                        "Would you be willing to help with this report?"
+                        "Apakah Anda bersedia membantu dengan laporan ini?"
                       </p>
-                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md box-border" placeholder="Rewrite with yes choices..." />
+                      <input type="text" className="w-full p-2 border border-gray-300 rounded-md box-border" placeholder="Tulis ulang dengan pilihan ya..." />
                     </div>
                   </div>
                 </div>
               </div>
               
               <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-                Check My Approach
+                Periksa Pendekatan Saya
               </button>
             </div>
           )}

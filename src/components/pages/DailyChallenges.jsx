@@ -4,12 +4,12 @@ const DailyChallenges = () => {
   const [activeTab, setActiveTab] = useState('today');
   const [todayChallenge, setTodayChallenge] = useState({
     id: 1,
-    title: "Active Listening Challenge",
-    description: "Practice active listening in at least two conversations today. Maintain eye contact, lean slightly forward, and ask follow-up questions that show you're fully engaged.",
+    title: "Tantangan Mendengarkan Aktif",
+    description: "Berlatihlah mendengarkan aktif dalam setidaknya dua percakapan hari ini. Pertahankan kontak mata, condongkan badan sedikit ke depan, dan ajukan pertanyaan lanjutan yang menunjukkan Anda benar-benar terlibat.",
     tips: [
-      "Put away your phone and other distractions",
-      "Resist the urge to interrupt or plan your response while they're speaking",
-      "Summarize what they said before responding"
+      "Singkirkan ponsel dan gangguan lainnya",
+      "Tahan keinginan untuk menyela atau merencanakan respons Anda saat mereka berbicara",
+      "Ringkas apa yang mereka katakan sebelum menanggapi"
     ],
     completed: false,
     points: 15
@@ -18,52 +18,52 @@ const DailyChallenges = () => {
   const [upcomingChallenges] = useState([
     {
       id: 2,
-      title: "Genuine Compliment Challenge",
-      description: "Give at least three sincere, specific compliments to different people. Focus on their actions or choices rather than just appearances.",
-      scheduled: "Tomorrow"
+      title: "Tantangan Pujian Tulus",
+      description: "Berikan setidaknya tiga pujian tulus dan spesifik kepada orang yang berbeda. Fokus pada tindakan atau pilihan mereka daripada hanya penampilan.",
+      scheduled: "Besok"
     },
     {
       id: 3,
-      title: "Yes Question Sequence",
-      description: "Practice the 'yes question' technique by starting with questions that will get agreement before making a request.",
-      scheduled: "In 2 days"
+      title: "Urutan Pertanyaan Ya",
+      description: "Praktikkan teknik 'pertanyaan ya' dengan memulai dengan pertanyaan yang akan mendapatkan persetujuan sebelum membuat permintaan.",
+      scheduled: "Dalam 2 hari"
     },
     {
       id: 4,
-      title: "First Impression Practice",
-      description: "For every new person you meet today, practice making a positive first impression using the techniques you've learned.",
-      scheduled: "In 3 days"
+      title: "Praktik Kesan Pertama",
+      description: "Untuk setiap orang baru yang Anda temui hari ini, praktikkan membuat kesan pertama yang positif menggunakan teknik yang telah Anda pelajari.",
+      scheduled: "Dalam 3 hari"
     }
   ]);
   
   const [completedChallenges] = useState([
     {
       id: 101,
-      title: "Gratitude Expression",
-      description: "Express specific, detailed gratitude to someone who has helped you recently.",
-      completed: "Yesterday",
+      title: "Ungkapan Syukur",
+      description: "Ungkapkan rasa syukur yang spesifik dan detail kepada seseorang yang telah membantu Anda baru-baru ini.",
+      completed: "Kemarin",
       points: 15
     },
     {
       id: 102,
-      title: "Conversation Initiation",
-      description: "Start conversations with three different people by focusing on their interests.",
-      completed: "3 days ago",
+      title: "Memulai Percakapan",
+      description: "Mulai percakapan dengan tiga orang berbeda dengan fokus pada minat mereka.",
+      completed: "3 hari yang lalu",
       points: 10
     },
     {
       id: 103,
-      title: "Non-verbal Communication",
-      description: "Practice maintaining open body language in all your interactions today.",
-      completed: "5 days ago",
+      title: "Komunikasi Non-verbal",
+      description: "Praktikkan mempertahankan bahasa tubuh terbuka dalam semua interaksi Anda hari ini.",
+      completed: "5 hari yang lalu",
       points: 10
     }
   ]);
 
   const tabs = [
-    { id: 'today', label: 'Today\'s Challenge' },
-    { id: 'upcoming', label: 'Upcoming' },
-    { id: 'completed', label: 'Completed' }
+    { id: 'today', label: 'Tantangan Hari Ini' },
+    { id: 'upcoming', label: 'Mendatang' },
+    { id: 'completed', label: 'Selesai' }
   ];
 
   const handleCompleteChallenge = () => {
@@ -75,10 +75,10 @@ const DailyChallenges = () => {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Daily Challenges</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Tantangan Harian</h2>
       <p className="text-gray-600 mb-8">
-        Regular practice is essential for mastering people skills. These daily challenges 
-        provide focused activities to help you apply what you've learned in real-life situations.
+        Latihan rutin sangat penting untuk menguasai keterampilan berkomunikasi. Tantangan harian ini 
+        menyediakan aktivitas terfokus untuk membantu Anda menerapkan apa yang telah Anda pelajari dalam situasi kehidupan nyata.
       </p>
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
@@ -120,7 +120,7 @@ const DailyChallenges = () => {
                         ? 'bg-green-200 text-green-800' 
                         : 'bg-blue-200 text-blue-800'
                     }`}>
-                      +{todayChallenge.points} points
+                      +{todayChallenge.points} poin
                     </span>
                   </div>
                 </div>
@@ -136,7 +136,7 @@ const DailyChallenges = () => {
                     <h4 className={`font-medium mb-2 ${
                       todayChallenge.completed ? 'text-green-800' : 'text-blue-800'
                     }`}>
-                      Tips for Success:
+                      Tips untuk Sukses:
                     </h4>
                     <ul className="list-disc list-inside space-y-1 text-gray-700">
                       {todayChallenge.tips.map((tip, index) => (
@@ -153,24 +153,24 @@ const DailyChallenges = () => {
                         : 'bg-blue-600 text-white hover:bg-blue-700'
                     }`}
                   >
-                    {todayChallenge.completed ? '✓ Completed! (Tap to Undo)' : 'Mark as Completed'}
+                    {todayChallenge.completed ? '✓ Selesai! (Ketuk untuk Batalkan)' : 'Tandai Selesai'}
                   </button>
                 </div>
               </div>
               
               {todayChallenge.completed && (
                 <div className="mt-6 bg-green-50 p-4 rounded-lg border border-green-200">
-                  <h4 className="font-medium text-green-800 mb-2">Reflection (Optional)</h4>
+                  <h4 className="font-medium text-green-800 mb-2">Refleksi (Opsional)</h4>
                   <p className="text-gray-700 mb-3">
-                    Taking a moment to reflect on your experience can help reinforce your learning:
+                    Luangkan waktu sejenak untuk merefleksikan pengalaman Anda dapat membantu memperkuat pembelajaran Anda:
                   </p>
                   <textarea 
                     className="w-full p-3 border border-green-300 rounded-md box-border mb-3" 
                     rows="4"
-                    placeholder="How did the challenge go? What did you learn? What might you do differently next time?"
+                    placeholder="Bagaimana tantangan itu berjalan? Apa yang Anda pelajari? Apa yang mungkin Anda lakukan secara berbeda lain kali?"
                   ></textarea>
                   <button className="px-4 py-2 bg-green-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-green-700 transition-colors">
-                    Save Reflection
+                    Simpan Refleksi
                   </button>
                 </div>
               )}
@@ -179,9 +179,9 @@ const DailyChallenges = () => {
           
           {activeTab === 'upcoming' && (
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Upcoming Challenges</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Tantangan Mendatang</h3>
               <p className="text-gray-600 mb-6">
-                Preview what's coming up in your challenge schedule. Each day brings a new opportunity to practice and improve your people skills.
+                Lihat pratinjau apa yang akan datang dalam jadwal tantangan Anda. Setiap hari membawa kesempatan baru untuk berlatih dan meningkatkan keterampilan berkomunikasi Anda.
               </p>
               
               <div className="space-y-4">
@@ -199,12 +199,12 @@ const DailyChallenges = () => {
               </div>
               
               <div className="mt-6 bg-blue-50 p-4 rounded-lg border border-blue-200">
-                <h4 className="font-medium text-blue-800 mb-2">Personalize Your Challenges</h4>
+                <h4 className="font-medium text-blue-800 mb-2">Personalisasi Tantangan Anda</h4>
                 <p className="text-gray-700 mb-3">
-                  Would you like to focus on specific people skills? We can customize your upcoming challenges.
+                  Apakah Anda ingin fokus pada keterampilan berkomunikasi tertentu? Kami dapat menyesuaikan tantangan mendatang Anda.
                 </p>
                 <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-                  Customize Challenge Focus
+                  Sesuaikan Fokus Tantangan
                 </button>
               </div>
             </div>
@@ -212,9 +212,9 @@ const DailyChallenges = () => {
           
           {activeTab === 'completed' && (
             <div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Challenge History</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Riwayat Tantangan</h3>
               <p className="text-gray-600 mb-6">
-                Review challenges you've completed and the skills you've practiced. Your consistent effort is building lasting people skills.
+                Tinjau tantangan yang telah Anda selesaikan dan keterampilan yang telah Anda latih. Usaha konsisten Anda membangun keterampilan berkomunikasi yang bertahan lama.
               </p>
               
               <div className="space-y-4">
@@ -239,12 +239,12 @@ const DailyChallenges = () => {
               <div className="mt-6 p-4 rounded-lg bg-gray-50 border border-gray-200">
                 <div className="flex justify-between items-center">
                   <div>
-                    <h4 className="font-medium text-gray-800 mb-1">Your Challenge Stats</h4>
-                    <p className="text-gray-600 text-sm">You're building excellent habits!</p>
+                    <h4 className="font-medium text-gray-800 mb-1">Statistik Tantangan Anda</h4>
+                    <p className="text-gray-600 text-sm">Anda membangun kebiasaan yang sangat baik!</p>
                   </div>
                   <div className="text-right">
-                    <p className="text-gray-700 font-medium">3 challenges this week</p>
-                    <p className="text-gray-700 font-medium">35 total points earned</p>
+                    <p className="text-gray-700 font-medium">3 tantangan minggu ini</p>
+                    <p className="text-gray-700 font-medium">35 total poin diperoleh</p>
                   </div>
                 </div>
               </div>

@@ -6,34 +6,34 @@ const LearnMaterials = () => {
   const chapters = [
     {
       id: 1,
-      title: "Understanding People Skills",
-      content: "The foundation of all effective interaction is recognizing that most people are primarily interested in themselves. This chapter explores the psychology behind human interaction and why developing people skills is crucial for success in both personal and professional life."
+      title: "Memahami Keterampilan Berkomunikasi",
+      content: "Dasar dari semua interaksi yang efektif adalah mengenali bahwa kebanyakan orang terutama tertarik pada diri mereka sendiri. Bab ini mengeksplorasi psikologi di balik interaksi manusia dan mengapa mengembangkan keterampilan berkomunikasi sangat penting untuk keberhasilan dalam kehidupan pribadi dan profesional."
     },
     {
       id: 2,
-      title: "The Power of Focus",
-      content: "People learn better through imagery and visual cues, and their memory is limited. This chapter explains how to communicate effectively by using clear imagery and focusing on key points that resonate with the other person's interests."
+      title: "Kekuatan Fokus",
+      content: "Orang belajar lebih baik melalui citra dan isyarat visual, dan ingatan mereka terbatas. Bab ini menjelaskan cara berkomunikasi secara efektif dengan menggunakan citra yang jelas dan fokus pada poin-poin utama yang beresonansi dengan minat orang lain."
     },
     {
       id: 3,
-      title: "Effective Speaking",
-      content: "Speaking effectively means talking about what interests the other person, making them feel important, and agreeing with them whenever possible. This chapter covers techniques for engaging conversations that build rapport and trust."
+      title: "Berbicara Efektif",
+      content: "Berbicara secara efektif berarti berbicara tentang apa yang menarik bagi orang lain, membuat mereka merasa penting, dan menyetujui mereka bila memungkinkan. Bab ini membahas teknik-teknik untuk percakapan yang menarik yang membangun hubungan dan kepercayaan."
     },
     {
       id: 4,
-      title: "The Art of Listening",
-      content: "Effective listening involves maintaining eye contact, leaning forward, asking questions, and using the speaker's own words. This chapter demonstrates how to become a better listener and build deeper connections with others."
+      title: "Seni Mendengarkan",
+      content: "Mendengarkan secara efektif melibatkan mempertahankan kontak mata, condong ke depan, mengajukan pertanyaan, dan menggunakan kata-kata pembicara sendiri. Bab ini menunjukkan cara menjadi pendengar yang lebih baik dan membangun koneksi yang lebih dalam dengan orang lain."
     },
     {
       id: 5,
-      title: "Influence and Persuasion",
-      content: "Influencing others requires understanding what they want and using third-person testimonials to convince them. This chapter shows how to ethically influence others by aligning your message with their desires."
+      title: "Pengaruh dan Persuasi",
+      content: "Memengaruhi orang lain membutuhkan pemahaman tentang apa yang mereka inginkan dan menggunakan testimonial pihak ketiga untuk meyakinkan mereka. Bab ini menunjukkan cara memengaruhi orang lain secara etis dengan menyelaraskan pesan Anda dengan keinginan mereka."
     }
   ];
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Learning Materials</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Materi Pembelajaran</h2>
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
         <div className="border-b">
@@ -48,7 +48,7 @@ const LearnMaterials = () => {
                     : 'text-gray-500 hover:text-gray-700'
                 }`}
               >
-                Chapter {chapter.id}
+                Bab {chapter.id}
               </button>
             ))}
           </div>
@@ -62,11 +62,11 @@ const LearnMaterials = () => {
                 <p className="text-gray-600 mb-6">{chapter.content}</p>
                 
                 <div className="bg-blue-50 p-4 rounded-lg mb-6">
-                  <h4 className="font-medium text-blue-800 mb-2">Key Takeaways</h4>
+                  <h4 className="font-medium text-blue-800 mb-2">Poin-poin Utama</h4>
                   <ul className="list-disc list-inside text-gray-700 space-y-1">
-                    <li>Understanding this principle helps build better relationships</li>
-                    <li>Practice is essential to master this skill</li>
-                    <li>The technique works in both personal and professional settings</li>
+                    <li>Memahami prinsip ini membantu membangun hubungan yang lebih baik</li>
+                    <li>Latihan sangat penting untuk menguasai keterampilan ini</li>
+                    <li>Teknik ini bekerja dalam pengaturan pribadi dan profesional</li>
                   </ul>
                 </div>
                 
@@ -80,7 +80,7 @@ const LearnMaterials = () => {
                     disabled={chapter.id === 1}
                     onClick={() => setActiveChapter(chapter.id - 1)}
                   >
-                    ← Previous Chapter
+                    ← Bab Sebelumnya
                   </button>
                   
                   <button
@@ -92,7 +92,7 @@ const LearnMaterials = () => {
                     disabled={chapter.id === chapters.length}
                     onClick={() => setActiveChapter(chapter.id + 1)}
                   >
-                    Next Chapter →
+                    Bab Berikutnya →
                   </button>
                 </div>
               </div>
@@ -102,12 +102,12 @@ const LearnMaterials = () => {
       </div>
       
       <div className="bg-white rounded-lg shadow-md p-6">
-        <h3 className="text-lg font-semibold text-gray-800 mb-4">Chapter Quiz</h3>
+        <h3 className="text-lg font-semibold text-gray-800 mb-4">Kuis Bab</h3>
         <p className="text-gray-600 mb-6">
-          Test your understanding of this chapter's concepts with a short quiz.
+          Uji pemahaman Anda tentang konsep bab ini dengan kuis singkat.
         </p>
         <button className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-          Start Quiz
+          Mulai Kuis
         </button>
       </div>
     </div>

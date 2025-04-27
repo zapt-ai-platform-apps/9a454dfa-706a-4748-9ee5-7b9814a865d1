@@ -3,22 +3,22 @@ import React from 'react';
 const CriticismUnderstanding = () => {
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Understanding Criticism</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Memahami Kritik</h2>
       <p className="text-gray-600 mb-8">
-        Learn about the impact of criticism, when to avoid it, and how to provide constructive feedback
-        when necessary. Mastering this skill helps maintain positive relationships even during difficult conversations.
+        Pelajari tentang dampak kritik, kapan harus menghindarinya, dan bagaimana memberikan umpan balik konstruktif
+        bila diperlukan. Menguasai keterampilan ini membantu mempertahankan hubungan positif bahkan selama percakapan yang sulit.
       </p>
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
         <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">The Danger of Criticism</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Bahaya Kritik</h3>
           <p className="text-gray-600 mb-6">
-            Criticism, even when well-intentioned, often creates defensiveness and resistance rather than positive change.
-            Understanding its psychological impact helps us communicate more effectively.
+            Kritik, bahkan ketika berniat baik, sering kali menciptakan sikap defensif dan resistensi daripada perubahan positif.
+            Memahami dampak psikologisnya membantu kita berkomunikasi lebih efektif.
           </p>
           
           <div className="bg-red-50 p-4 rounded-lg mb-6">
-            <h4 className="font-medium text-red-800 mb-2">Why Criticism Fails:</h4>
+            <h4 className="font-medium text-red-800 mb-2">Mengapa Kritik Gagal:</h4>
             <div className="space-y-4">
               <div className="flex items-start">
                 <div className="flex-shrink-0 bg-red-100 rounded-full p-2 mr-3">
@@ -27,7 +27,7 @@ const CriticismUnderstanding = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-gray-700"><span className="font-medium">It triggers defensiveness:</span> People instinctively protect their self-image when criticized.</p>
+                  <p className="text-gray-700"><span className="font-medium">Memicu sikap defensif:</span> Orang secara naluriah melindungi citra diri mereka ketika dikritik.</p>
                 </div>
               </div>
               
@@ -38,7 +38,7 @@ const CriticismUnderstanding = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-gray-700"><span className="font-medium">It damages relationships:</span> Repeated criticism erodes trust and goodwill between people.</p>
+                  <p className="text-gray-700"><span className="font-medium">Merusak hubungan:</span> Kritik berulang mengikis kepercayaan dan niat baik antara orang-orang.</p>
                 </div>
               </div>
               
@@ -49,7 +49,7 @@ const CriticismUnderstanding = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-gray-700"><span className="font-medium">It rarely achieves its intended purpose:</span> Most criticism doesn't lead to the desired change in behavior.</p>
+                  <p className="text-gray-700"><span className="font-medium">Jarang mencapai tujuan yang dimaksudkan:</span> Sebagian besar kritik tidak mengarah pada perubahan perilaku yang diinginkan.</p>
                 </div>
               </div>
             </div>
@@ -57,29 +57,29 @@ const CriticismUnderstanding = () => {
           
           <div className="flex mb-4">
             <div className="flex-1 mr-4">
-              <h4 className="font-medium text-gray-800 mb-2">The Criticism Cycle:</h4>
+              <h4 className="font-medium text-gray-800 mb-2">Siklus Kritik:</h4>
               <p className="text-gray-600 text-sm">
-                Criticism often creates a negative feedback loop that damages relationships and prevents improvement:
+                Kritik sering kali menciptakan siklus umpan balik negatif yang merusak hubungan dan mencegah perbaikan:
               </p>
               <ol className="list-decimal list-inside space-y-1 text-gray-700 text-sm mt-2">
-                <li>Person A criticizes Person B</li>
-                <li>Person B feels attacked and becomes defensive</li>
-                <li>Person B either withdraws or counterattacks</li>
-                <li>Communication breaks down</li>
-                <li>The original issue remains unsolved</li>
-                <li>Frustration builds, leading to more criticism</li>
+                <li>Orang A mengkritik Orang B</li>
+                <li>Orang B merasa diserang dan menjadi defensif</li>
+                <li>Orang B menarik diri atau menyerang balik</li>
+                <li>Komunikasi terputus</li>
+                <li>Masalah asli tetap tidak terselesaikan</li>
+                <li>Frustrasi meningkat, menyebabkan lebih banyak kritik</li>
               </ol>
             </div>
             
             <div className="flex-1">
-              <h4 className="font-medium text-gray-800 mb-2">The Most Common Mistake:</h4>
+              <h4 className="font-medium text-gray-800 mb-2">Kesalahan Paling Umum:</h4>
               <p className="text-gray-600 text-sm">
-                Many people believe that pointing out others' flaws will motivate them to change. In reality, criticism
-                often has the opposite effect, creating resistance and resentment rather than inspiring improvement.
+                Banyak orang percaya bahwa menunjukkan kekurangan orang lain akan memotivasi mereka untuk berubah. Pada kenyataannya, kritik
+                sering kali memiliki efek sebaliknya, menciptakan resistensi dan kebencian daripada menginspirasi perbaikan.
               </p>
               <p className="text-gray-600 text-sm mt-2">
-                Research shows that relationships with high criticism levels have poorer outcomes in all contexts—from
-                marriages to workplaces to parent-child relationships.
+                Penelitian menunjukkan bahwa hubungan dengan tingkat kritik tinggi memiliki hasil yang lebih buruk dalam semua konteks—mulai dari
+                pernikahan hingga tempat kerja hingga hubungan orang tua-anak.
               </p>
             </div>
           </div>
@@ -88,9 +88,9 @@ const CriticismUnderstanding = () => {
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
         <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Alternatives to Criticism</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Alternatif Kritik</h3>
           <p className="text-gray-600 mb-6">
-            Instead of criticizing, try these more effective approaches to encourage positive change.
+            Alih-alih mengkritik, coba pendekatan yang lebih efektif ini untuk mendorong perubahan positif.
           </p>
           
           <div className="space-y-6">
@@ -101,11 +101,11 @@ const CriticismUnderstanding = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Lead with Appreciation</h4>
-                <p className="text-gray-600 mb-2">Begin conversations by acknowledging what's going well before addressing issues.</p>
+                <h4 className="font-semibold text-gray-800 mb-1">Memulai dengan Penghargaan</h4>
+                <p className="text-gray-600 mb-2">Mulai percakapan dengan mengakui apa yang berjalan baik sebelum membahas masalah.</p>
                 <div className="bg-gray-50 p-3 rounded-md text-sm">
-                  <p className="text-red-600 mb-1">Instead of: "You never help with household chores."</p>
-                  <p className="text-green-600">Try: "I really appreciate how you took care of dinner last night. I'd like to figure out a way we can share the household responsibilities more evenly."</p>
+                  <p className="text-red-600 mb-1">Alih-alih: "Kamu tidak pernah membantu dengan pekerjaan rumah tangga."</p>
+                  <p className="text-green-600">Coba: "Saya sangat menghargai bagaimana kamu mengurus makan malam tadi malam. Saya ingin mencari cara agar kita bisa berbagi tanggung jawab rumah tangga secara lebih merata."</p>
                 </div>
               </div>
             </div>
@@ -117,11 +117,11 @@ const CriticismUnderstanding = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Use "I" Statements</h4>
-                <p className="text-gray-600 mb-2">Express your feelings and needs without accusation or blame.</p>
+                <h4 className="font-semibold text-gray-800 mb-1">Gunakan Pernyataan "Saya"</h4>
+                <p className="text-gray-600 mb-2">Ungkapkan perasaan dan kebutuhan Anda tanpa tuduhan atau menyalahkan.</p>
                 <div className="bg-gray-50 p-3 rounded-md text-sm">
-                  <p className="text-red-600 mb-1">Instead of: "You're always late and it's disrespectful."</p>
-                  <p className="text-green-600">Try: "I feel frustrated when I have to wait, as it affects my schedule. I'd appreciate it if we could both aim to be on time."</p>
+                  <p className="text-red-600 mb-1">Alih-alih: "Kamu selalu terlambat dan itu tidak sopan."</p>
+                  <p className="text-green-600">Coba: "Saya merasa frustrasi ketika harus menunggu, karena memengaruhi jadwal saya. Saya akan sangat menghargai jika kita berdua bisa berusaha tepat waktu."</p>
                 </div>
               </div>
             </div>
@@ -133,11 +133,11 @@ const CriticismUnderstanding = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Focus on Solutions</h4>
-                <p className="text-gray-600 mb-2">Collaborate on how to improve the situation rather than dwelling on problems.</p>
+                <h4 className="font-semibold text-gray-800 mb-1">Fokus pada Solusi</h4>
+                <p className="text-gray-600 mb-2">Berkolaborasi tentang cara memperbaiki situasi daripada berfokus pada masalah.</p>
                 <div className="bg-gray-50 p-3 rounded-md text-sm">
-                  <p className="text-red-600 mb-1">Instead of: "This report is full of errors. You need to be more careful."</p>
-                  <p className="text-green-600">Try: "I noticed a few inconsistencies in the report. Would it help if we created a checklist for future reports to ensure accuracy?"</p>
+                  <p className="text-red-600 mb-1">Alih-alih: "Laporan ini penuh dengan kesalahan. Kamu perlu lebih berhati-hati."</p>
+                  <p className="text-green-600">Coba: "Saya melihat beberapa inkonsistensi dalam laporan. Apakah akan membantu jika kita membuat daftar periksa untuk laporan masa depan untuk memastikan akurasi?"</p>
                 </div>
               </div>
             </div>
@@ -147,52 +147,52 @@ const CriticismUnderstanding = () => {
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
         <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">When Feedback Is Necessary</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Ketika Umpan Balik Diperlukan</h3>
           <p className="text-gray-600 mb-6">
-            There are times when addressing problems is unavoidable. In these cases, here's how to provide 
-            constructive feedback that minimizes defensiveness and maximizes positive change.
+            Ada kalanya membahas masalah tidak dapat dihindari. Dalam kasus ini, inilah cara memberikan 
+            umpan balik konstruktif yang meminimalkan sikap defensif dan memaksimalkan perubahan positif.
           </p>
           
           <div className="bg-blue-50 p-4 rounded-lg mb-6">
-            <h4 className="font-medium text-blue-800 mb-3">The 5-Step Constructive Feedback Method:</h4>
+            <h4 className="font-medium text-blue-800 mb-3">Metode Umpan Balik Konstruktif 5 Langkah:</h4>
             <ol className="space-y-4">
               <li className="flex items-start">
                 <span className="flex-shrink-0 bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center mr-3 text-blue-800 font-medium">1</span>
                 <div>
-                  <p className="font-medium text-gray-800">Choose the right time and place</p>
-                  <p className="text-gray-600 text-sm">Private setting, when neither party is stressed or rushed, and the issue is still relevant</p>
+                  <p className="font-medium text-gray-800">Pilih waktu dan tempat yang tepat</p>
+                  <p className="text-gray-600 text-sm">Tempat pribadi, ketika tidak ada pihak yang stres atau terburu-buru, dan masalahnya masih relevan</p>
                 </div>
               </li>
               
               <li className="flex items-start">
                 <span className="flex-shrink-0 bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center mr-3 text-blue-800 font-medium">2</span>
                 <div>
-                  <p className="font-medium text-gray-800">Start with appreciation</p>
-                  <p className="text-gray-600 text-sm">Begin with a sincere recognition of something positive about the person or their work</p>
+                  <p className="font-medium text-gray-800">Mulai dengan penghargaan</p>
+                  <p className="text-gray-600 text-sm">Mulai dengan pengakuan tulus tentang sesuatu yang positif tentang orang tersebut atau pekerjaannya</p>
                 </div>
               </li>
               
               <li className="flex items-start">
                 <span className="flex-shrink-0 bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center mr-3 text-blue-800 font-medium">3</span>
                 <div>
-                  <p className="font-medium text-gray-800">Describe the issue specifically</p>
-                  <p className="text-gray-600 text-sm">Focus on the behavior or outcome, not the person; use concrete examples</p>
+                  <p className="font-medium text-gray-800">Jelaskan masalah secara spesifik</p>
+                  <p className="text-gray-600 text-sm">Fokus pada perilaku atau hasil, bukan orangnya; gunakan contoh konkret</p>
                 </div>
               </li>
               
               <li className="flex items-start">
                 <span className="flex-shrink-0 bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center mr-3 text-blue-800 font-medium">4</span>
                 <div>
-                  <p className="font-medium text-gray-800">Explain the impact</p>
-                  <p className="text-gray-600 text-sm">Help them understand why the issue matters by explaining its effects</p>
+                  <p className="font-medium text-gray-800">Jelaskan dampaknya</p>
+                  <p className="text-gray-600 text-sm">Bantu mereka memahami mengapa masalah itu penting dengan menjelaskan efeknya</p>
                 </div>
               </li>
               
               <li className="flex items-start">
                 <span className="flex-shrink-0 bg-blue-200 rounded-full w-6 h-6 flex items-center justify-center mr-3 text-blue-800 font-medium">5</span>
                 <div>
-                  <p className="font-medium text-gray-800">Collaborate on a solution</p>
-                  <p className="text-gray-600 text-sm">Ask for their input and work together to address the issue; offer support</p>
+                  <p className="font-medium text-gray-800">Berkolaborasi untuk solusi</p>
+                  <p className="text-gray-600 text-sm">Minta masukan mereka dan bekerja sama untuk mengatasi masalah; tawarkan dukungan</p>
                 </div>
               </li>
             </ol>
@@ -200,7 +200,7 @@ const CriticismUnderstanding = () => {
           
           <div className="flex justify-center">
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-              Try the Interactive Feedback Exercise
+              Coba Latihan Umpan Balik Interaktif
             </button>
           </div>
         </div>

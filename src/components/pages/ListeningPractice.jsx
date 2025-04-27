@@ -9,72 +9,72 @@ const ListeningPractice = () => {
   const exercises = [
     {
       id: 1,
-      title: "Maintaining Eye Contact",
-      description: "Practice focusing on maintaining proper eye contact during a conversation.",
-      scenario: "Your friend is telling you about their recent vacation experience.",
+      title: "Menjaga Kontak Mata",
+      description: "Berlatihlah fokus pada menjaga kontak mata yang tepat selama percakapan.",
+      scenario: "Teman Anda menceritakan pengalaman liburan mereka baru-baru ini.",
       conversation: [
-        "I just got back from the most amazing trip to Thailand. The beaches were absolutely stunning, and the food was out of this world!",
-        "We visited Bangkok first, which was so vibrant and chaotic in the best way. The temples were incredible, especially the reclining Buddha at Wat Pho.",
-        "Then we headed south to Krabi and took a boat to some of the small islands. The limestone cliffs rising out of the turquoise water were just breathtaking.",
-        "The best part might have been the street food. I tried everything from pad thai from little carts to these amazing mango sticky rice desserts.",
-        "I'm already planning my next trip back. Maybe next time I'll head north to Chiang Mai. Have you ever been to Thailand?"
+        "Saya baru saja kembali dari perjalanan yang luar biasa ke Thailand. Pantainya sangat menakjubkan, dan makanannya luar biasa!",
+        "Kami mengunjungi Bangkok terlebih dahulu, yang sangat hidup dan ramai dalam cara yang terbaik. Kuilnya luar biasa, terutama Budha berbaring di Wat Pho.",
+        "Kemudian kami menuju selatan ke Krabi dan naik perahu ke beberapa pulau kecil. Tebing kapur yang menjulang dari air berwarna pirus itu benar-benar memukau.",
+        "Bagian terbaiknya mungkin adalah makanan jalanan. Saya mencoba semuanya mulai dari pad thai dari gerobak kecil hingga makanan penutup mangga dengan nasi ketan yang lezat.",
+        "Saya sudah merencanakan perjalanan saya berikutnya. Mungkin lain kali saya akan pergi ke utara ke Chiang Mai. Apakah Anda pernah ke Thailand?"
       ],
       questions: [
         {
-          question: "Which city did they visit first?",
+          question: "Kota mana yang pertama kali mereka kunjungi?",
           options: ["Phuket", "Bangkok", "Chiang Mai", "Krabi"],
           correctAnswer: "Bangkok"
         },
         {
-          question: "What kind of dessert did they mention trying?",
-          options: ["Fried bananas", "Coconut ice cream", "Mango sticky rice", "Thai tea pudding"],
-          correctAnswer: "Mango sticky rice"
+          question: "Makanan penutup apa yang mereka sebutkan telah dicoba?",
+          options: ["Pisang goreng", "Es krim kelapa", "Mangga dengan nasi ketan", "Puding teh Thai"],
+          correctAnswer: "Mangga dengan nasi ketan"
         },
         {
-          question: "Which temple did they specifically mention visiting?",
-          options: ["Temple of the Emerald Buddha", "Wat Arun", "Wat Pho", "White Temple"],
+          question: "Kuil mana yang secara khusus mereka sebutkan telah dikunjungi?",
+          options: ["Kuil Buddha Emerald", "Wat Arun", "Wat Pho", "Kuil Putih"],
           correctAnswer: "Wat Pho"
         }
       ],
       tips: [
-        "Focus on maintaining natural eye contact throughout the conversation",
-        "Avoid looking at your phone or being distracted by your surroundings",
-        "It's okay to occasionally look away, but return your gaze to show attention"
+        "Fokus pada menjaga kontak mata yang alami sepanjang percakapan",
+        "Hindari melihat ponsel Anda atau terganggu oleh lingkungan sekitar",
+        "Tidak apa-apa sesekali melihat ke arah lain, tetapi kembalikan pandangan Anda untuk menunjukkan perhatian"
       ]
     },
     {
       id: 2,
-      title: "Leaning Forward",
-      description: "Practice showing engagement by leaning slightly forward during important conversations.",
-      scenario: "A colleague is sharing an important work update with you.",
+      title: "Mencondongkan Badan ke Depan",
+      description: "Berlatihlah menunjukkan keterlibatan dengan sedikit mencondongkan badan ke depan selama percakapan penting.",
+      scenario: "Seorang rekan kerja berbagi pembaruan pekerjaan penting dengan Anda.",
       conversation: [
-        "I wanted to let you know about some changes coming to our project timeline. The client has asked for an additional feature that will impact our delivery date.",
-        "We'll need to push back the launch by about two weeks, which means all our milestones will shift accordingly.",
-        "The good news is they've approved additional budget for this work, so we won't have to cut corners on quality.",
-        "The new feature is actually pretty exciting - it's an interactive dashboard that will help users visualize their data much more effectively.",
-        "I'm going to send around an updated schedule later today, but I wanted to give you a heads up first. Do you have any concerns about the timeline change?"
+        "Saya ingin memberi tahu Anda tentang beberapa perubahan yang akan datang pada jadwal proyek kita. Klien telah meminta fitur tambahan yang akan berdampak pada tanggal pengiriman kita.",
+        "Kita perlu menunda peluncuran sekitar dua minggu, yang berarti semua tonggak pencapaian kita akan bergeser sesuai dengan itu.",
+        "Kabar baiknya adalah mereka telah menyetujui anggaran tambahan untuk pekerjaan ini, jadi kita tidak perlu mengorbankan kualitas.",
+        "Fitur baru ini sebenarnya cukup menarik - ini adalah dasbor interaktif yang akan membantu pengguna memvisualisasikan data mereka dengan lebih efektif.",
+        "Saya akan mengirimkan jadwal yang diperbarui hari ini, tetapi saya ingin memberi tahu Anda terlebih dahulu. Apakah Anda memiliki kekhawatiran tentang perubahan jadwal?"
       ],
       questions: [
         {
-          question: "How long will the project launch be delayed?",
-          options: ["One week", "Two weeks", "One month", "The launch date won't change"],
-          correctAnswer: "Two weeks"
+          question: "Berapa lama peluncuran proyek akan ditunda?",
+          options: ["Satu minggu", "Dua minggu", "Satu bulan", "Tanggal peluncuran tidak akan berubah"],
+          correctAnswer: "Dua minggu"
         },
         {
-          question: "What is the new feature that's being added?",
-          options: ["Mobile app integration", "Interactive dashboard", "Payment processing", "User authentication"],
-          correctAnswer: "Interactive dashboard"
+          question: "Apa fitur baru yang akan ditambahkan?",
+          options: ["Integrasi aplikasi seluler", "Dasbor interaktif", "Pemrosesan pembayaran", "Otentikasi pengguna"],
+          correctAnswer: "Dasbor interaktif"
         },
         {
-          question: "What positive aspect did they mention about the change?",
-          options: ["Additional budget approval", "Shorter timeline", "Fewer features required", "New team members"],
-          correctAnswer: "Additional budget approval"
+          question: "Aspek positif apa yang mereka sebutkan tentang perubahan tersebut?",
+          options: ["Persetujuan anggaran tambahan", "Jadwal yang lebih singkat", "Fitur yang lebih sedikit diperlukan", "Anggota tim baru"],
+          correctAnswer: "Persetujuan anggaran tambahan"
         }
       ],
       tips: [
-        "Lean slightly forward to demonstrate interest in what's being said",
-        "Keep your posture open and relaxed, not stiff or unnaturally close",
-        "Combine this with other listening cues like nodding occasionally"
+        "Condongkan sedikit badan ke depan untuk menunjukkan minat pada apa yang dikatakan",
+        "Jaga postur Anda tetap terbuka dan santai, tidak kaku atau tidak wajar terlalu dekat",
+        "Kombinasikan ini dengan isyarat mendengarkan lain seperti sesekali mengangguk"
       ]
     }
   ];
@@ -100,10 +100,10 @@ const ListeningPractice = () => {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Listening Practice</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Latihan Mendengarkan</h2>
       <p className="text-gray-600 mb-8">
-        These exercises will help you develop effective listening skills through practicing key techniques like
-        maintaining eye contact, leaning forward, asking questions, and attentively processing what you hear.
+        Latihan-latihan ini akan membantu Anda mengembangkan keterampilan mendengarkan yang efektif melalui praktik teknik-teknik kunci seperti
+        menjaga kontak mata, mencondongkan badan ke depan, mengajukan pertanyaan, dan memproses dengan penuh perhatian apa yang Anda dengar.
       </p>
       
       {!activeExercise ? (
@@ -118,7 +118,7 @@ const ListeningPractice = () => {
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">{exercise.title}</h3>
                 <p className="text-gray-600 text-sm mb-4">{exercise.description}</p>
                 <button className="text-blue-600 font-medium text-sm hover:text-blue-800 transition-colors">
-                  Start Exercise →
+                  Mulai Latihan →
                 </button>
               </div>
             </div>
@@ -146,7 +146,7 @@ const ListeningPractice = () => {
           
           <div className="p-6">
             <div className="mb-6">
-              <h4 className="font-semibold text-gray-800 mb-2">Scenario:</h4>
+              <h4 className="font-semibold text-gray-800 mb-2">Skenario:</h4>
               <p className="text-gray-700">{activeExercise.scenario}</p>
             </div>
             
@@ -162,7 +162,7 @@ const ListeningPractice = () => {
             {!showEvaluation ? (
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-800 mb-2">
-                  The Conversation ({currentStep}/{activeExercise.conversation.length}):
+                  Percakapan ({currentStep}/{activeExercise.conversation.length}):
                 </h4>
                 <div className="bg-gray-50 p-4 rounded-md border border-gray-200 mb-4">
                   <p className="text-gray-700">"{activeExercise.conversation[currentStep - 1]}"</p>
@@ -173,13 +173,13 @@ const ListeningPractice = () => {
                     onClick={handleNextStep}
                     className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors"
                   >
-                    {currentStep < activeExercise.conversation.length ? "Next" : "Complete Listening"}
+                    {currentStep < activeExercise.conversation.length ? "Lanjut" : "Selesai Mendengarkan"}
                   </button>
                 </div>
               </div>
             ) : (
               <div className="mb-6">
-                <h4 className="font-semibold text-gray-800 mb-4">Listening Comprehension Check:</h4>
+                <h4 className="font-semibold text-gray-800 mb-4">Pemeriksaan Pemahaman Mendengarkan:</h4>
                 
                 {activeExercise.questions.map((q, index) => (
                   <div key={index} className="mb-6 bg-gray-50 p-4 rounded-md border border-gray-200">
@@ -205,13 +205,13 @@ const ListeningPractice = () => {
                     onClick={resetExercise}
                     className="px-4 py-2 bg-gray-200 text-gray-800 rounded-md text-sm font-medium cursor-pointer hover:bg-gray-300 transition-colors"
                   >
-                    Restart Exercise
+                    Mulai Ulang Latihan
                   </button>
                   <button
                     onClick={handleAnswerSubmit}
                     className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors"
                   >
-                    Submit Answers
+                    Kirim Jawaban
                   </button>
                 </div>
               </div>

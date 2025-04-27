@@ -5,17 +5,17 @@ const DailyChallenge = () => {
   
   // This would normally come from an API or state management
   const challenge = {
-    title: "Active Listening Challenge",
-    description: "Today, practice active listening with someone. Maintain eye contact, nod occasionally, and summarize what they said before responding.",
+    title: "Tantangan Mendengarkan Aktif",
+    description: "Hari ini, berlatihlah mendengarkan aktif dengan seseorang. Pertahankan kontak mata, anggukkan kepala sesekali, dan ringkas apa yang mereka katakan sebelum merespons.",
     points: 15
   };
 
   return (
     <section className="bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg shadow-md p-5 text-white">
       <div className="flex justify-between items-start mb-4">
-        <h3 className="text-xl font-bold">Today's Challenge</h3>
+        <h3 className="text-xl font-bold">Tantangan Hari Ini</h3>
         <span className="px-2 py-1 bg-blue-800 bg-opacity-50 rounded-full text-xs font-semibold">
-          +{challenge.points} points
+          +{challenge.points} poin
         </span>
       </div>
       
@@ -30,7 +30,7 @@ const DailyChallenge = () => {
             : 'bg-white text-blue-700 hover:bg-blue-50'
         }`}
       >
-        {isCompleted ? '✓ Completed' : 'Mark as Completed'}
+        {isCompleted ? '✓ Selesai' : 'Tandai Selesai'}
       </button>
     </section>
   );

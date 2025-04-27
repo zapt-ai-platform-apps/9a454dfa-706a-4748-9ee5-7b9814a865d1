@@ -19,7 +19,7 @@ const ModuleCard = ({ id, title, description, icon }) => {
             window.dispatchEvent(event);
           }}
         >
-          Open Module →
+          Buka Modul →
         </button>
       </div>
     </div>

@@ -3,39 +3,39 @@ import React from 'react';
 const InfluencePractice = () => {
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Influence & Persuasion</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Pengaruh & Persuasi</h2>
       <p className="text-gray-600 mb-8">
-        Learn to ethically influence others by understanding their desires and using effective persuasion techniques.
-        These exercises will help you master the art of influence through practice scenarios.
+        Pelajari cara memengaruhi orang lain secara etis dengan memahami keinginan mereka dan menggunakan teknik persuasi yang efektif.
+        Latihan-latihan ini akan membantu Anda menguasai seni memengaruhi melalui skenario praktik.
       </p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-blue-600 text-white p-4">
-            <h3 className="font-bold">Understanding Desires</h3>
+            <h3 className="font-bold">Memahami Keinginan</h3>
           </div>
           <div className="p-5">
             <p className="text-gray-600 mb-4">
-              The first step to influencing others is understanding what they truly want. This exercise helps
-              you practice identifying underlying desires in different scenarios.
+              Langkah pertama untuk memengaruhi orang lain adalah memahami apa yang benar-benar mereka inginkan. Latihan ini membantu
+              Anda berlatih mengidentifikasi keinginan mendasar dalam skenario yang berbeda.
             </p>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-              Start Exercise
+              Mulai Latihan
             </button>
           </div>
         </div>
         
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-blue-600 text-white p-4">
-            <h3 className="font-bold">Third-Person Technique</h3>
+            <h3 className="font-bold">Teknik Pihak Ketiga</h3>
           </div>
           <div className="p-5">
             <p className="text-gray-600 mb-4">
-              Using third-person examples is a powerful way to persuade without creating resistance. Practice
-              creating compelling testimonials and stories that influence effectively.
+              Menggunakan contoh pihak ketiga adalah cara yang kuat untuk membujuk tanpa menciptakan resistensi. Berlatih
+              membuat testimonial dan cerita yang meyakinkan yang memengaruhi secara efektif.
             </p>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-              Start Exercise
+              Mulai Latihan
             </button>
           </div>
         </div>
@@ -43,7 +43,7 @@ const InfluencePractice = () => {
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
         <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Key Principles of Ethical Influence</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Prinsip-prinsip Utama Pengaruh Etis</h3>
           
           <div className="space-y-6">
             <div className="flex items-start">
@@ -53,8 +53,8 @@ const InfluencePractice = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Focus on Genuine Value</h4>
-                <p className="text-gray-600">Ethical influence always begins with providing real value to the other person. Never manipulate or deceive.</p>
+                <h4 className="font-semibold text-gray-800 mb-1">Fokus pada Nilai Sejati</h4>
+                <p className="text-gray-600">Pengaruh etis selalu dimulai dengan memberikan nilai nyata kepada orang lain. Jangan pernah memanipulasi atau menipu.</p>
               </div>
             </div>
             
@@ -66,8 +66,8 @@ const InfluencePractice = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Understand Their Perspective</h4>
-                <p className="text-gray-600">See the situation from their point of view to identify what matters most to them.</p>
+                <h4 className="font-semibold text-gray-800 mb-1">Pahami Perspektif Mereka</h4>
+                <p className="text-gray-600">Lihat situasi dari sudut pandang mereka untuk mengidentifikasi apa yang paling penting bagi mereka.</p>
               </div>
             </div>
             
@@ -78,8 +78,8 @@ const InfluencePractice = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Tell Stories, Not Arguments</h4>
-                <p className="text-gray-600">People respond better to stories than direct arguments. Use examples and testimonials.</p>
+                <h4 className="font-semibold text-gray-800 mb-1">Ceritakan Kisah, Bukan Argumen</h4>
+                <p className="text-gray-600">Orang merespons lebih baik terhadap cerita daripada argumen langsung. Gunakan contoh dan testimonial.</p>
               </div>
             </div>
           </div>
@@ -88,31 +88,31 @@ const InfluencePractice = () => {
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
         <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Influence Scenario Practice</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Praktik Skenario Pengaruh</h3>
           <p className="text-gray-600 mb-4">
-            Select a scenario below to practice applying influence principles in different situations.
-            You'll receive feedback on your approach and suggestions for improvement.
+            Pilih skenario di bawah ini untuk berlatih menerapkan prinsip pengaruh dalam situasi yang berbeda.
+            Anda akan menerima umpan balik tentang pendekatan Anda dan saran untuk perbaikan.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <button className="bg-gray-50 hover:bg-gray-100 p-4 rounded-md border border-gray-200 text-left transition-colors">
-              <h4 className="font-medium text-gray-800 mb-2">Workplace Scenario</h4>
-              <p className="text-gray-600 text-sm">Convince your team to adopt a new approach to project management.</p>
+              <h4 className="font-medium text-gray-800 mb-2">Skenario Tempat Kerja</h4>
+              <p className="text-gray-600 text-sm">Yakinkan tim Anda untuk mengadopsi pendekatan baru dalam manajemen proyek.</p>
             </button>
             
             <button className="bg-gray-50 hover:bg-gray-100 p-4 rounded-md border border-gray-200 text-left transition-colors">
-              <h4 className="font-medium text-gray-800 mb-2">Personal Relationship</h4>
-              <p className="text-gray-600 text-sm">Persuade a friend to join you for a fitness activity they're hesitant about.</p>
+              <h4 className="font-medium text-gray-800 mb-2">Hubungan Pribadi</h4>
+              <p className="text-gray-600 text-sm">Bujuk seorang teman untuk bergabung dengan Anda dalam aktivitas kebugaran yang mereka ragu-ragu.</p>
             </button>
             
             <button className="bg-gray-50 hover:bg-gray-100 p-4 rounded-md border border-gray-200 text-left transition-colors">
-              <h4 className="font-medium text-gray-800 mb-2">Sales Conversation</h4>
-              <p className="text-gray-600 text-sm">Ethically influence a potential customer to choose your product.</p>
+              <h4 className="font-medium text-gray-800 mb-2">Percakapan Penjualan</h4>
+              <p className="text-gray-600 text-sm">Pengaruhi calon pelanggan secara etis untuk memilih produk Anda.</p>
             </button>
             
             <button className="bg-gray-50 hover:bg-gray-100 p-4 rounded-md border border-gray-200 text-left transition-colors">
-              <h4 className="font-medium text-gray-800 mb-2">Community Initiative</h4>
-              <p className="text-gray-600 text-sm">Convince neighbors to participate in a local improvement project.</p>
+              <h4 className="font-medium text-gray-800 mb-2">Inisiatif Komunitas</h4>
+              <p className="text-gray-600 text-sm">Yakinkan tetangga untuk berpartisipasi dalam proyek peningkatan lokal.</p>
             </button>
           </div>
         </div>

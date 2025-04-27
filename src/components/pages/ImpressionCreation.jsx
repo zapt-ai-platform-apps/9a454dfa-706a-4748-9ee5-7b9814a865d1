@@ -3,52 +3,52 @@ import React from 'react';
 const ImpressionCreation = () => {
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Creating Positive Impressions</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6">Membuat Kesan Positif</h2>
       <p className="text-gray-600 mb-8">
-        Learn effective techniques to create favorable impressions in both new relationships and ongoing interactions.
-        These skills help you build trust, rapport, and a positive reputation with others.
+        Pelajari teknik efektif untuk menciptakan kesan yang baik dalam hubungan baru maupun yang sedang berlangsung.
+        Keterampilan ini membantu Anda membangun kepercayaan, hubungan, dan reputasi positif dengan orang lain.
       </p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-blue-600 text-white p-4">
-            <h3 className="font-bold">First Impressions</h3>
+            <h3 className="font-bold">Kesan Pertama</h3>
           </div>
           <div className="p-5">
             <p className="text-gray-600 mb-4">
-              A first impression forms within seconds and can be difficult to change later. 
-              Learn the critical elements that create a positive first impression.
+              Kesan pertama terbentuk dalam hitungan detik dan bisa sulit diubah nanti. 
+              Pelajari elemen penting yang menciptakan kesan pertama yang positif.
             </p>
             <ul className="list-disc list-inside space-y-1 text-gray-700 mb-4">
-              <li>Genuine smile and positive expression</li>
-              <li>Confident but warm body language</li>
-              <li>Focused attention on the other person</li>
-              <li>Appropriate appearance and grooming</li>
-              <li>Positive, engaging initial conversation</li>
+              <li>Senyum tulus dan ekspresi positif</li>
+              <li>Bahasa tubuh yang percaya diri namun hangat</li>
+              <li>Perhatian yang terfokus pada orang lain</li>
+              <li>Penampilan dan perawatan yang tepat</li>
+              <li>Percakapan awal yang positif dan menarik</li>
             </ul>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-              First Impression Techniques
+              Teknik Kesan Pertama
             </button>
           </div>
         </div>
         
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-blue-600 text-white p-4">
-            <h3 className="font-bold">Lasting Impressions</h3>
+            <h3 className="font-bold">Kesan yang Bertahan</h3>
           </div>
           <div className="p-5">
             <p className="text-gray-600 mb-4">
-              Beyond the first meeting, these ongoing behaviors help you maintain and strengthen positive impressions over time.
+              Di luar pertemuan pertama, perilaku berkelanjutan ini membantu Anda mempertahankan dan memperkuat kesan positif dari waktu ke waktu.
             </p>
             <ul className="list-disc list-inside space-y-1 text-gray-700 mb-4">
-              <li>Consistency in behavior and reliability</li>
-              <li>Following through on commitments</li>
-              <li>Showing genuine interest in others</li>
-              <li>Responding positively to challenges</li>
-              <li>Displaying gratitude and appreciation</li>
+              <li>Konsistensi dalam perilaku dan keandalan</li>
+              <li>Menepati komitmen</li>
+              <li>Menunjukkan minat tulus pada orang lain</li>
+              <li>Merespons secara positif terhadap tantangan</li>
+              <li>Menunjukkan rasa syukur dan penghargaan</li>
             </ul>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-              Lasting Impression Techniques
+              Teknik Kesan yang Bertahan
             </button>
           </div>
         </div>
@@ -56,10 +56,10 @@ const ImpressionCreation = () => {
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
         <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">The Impression Formula</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Formula Kesan</h3>
           <p className="text-gray-600 mb-6">
-            Creating a positive impression follows a formula that combines several key elements. 
-            Master these components to consistently make a favorable impact on others.
+            Menciptakan kesan positif mengikuti formula yang menggabungkan beberapa elemen kunci. 
+            Kuasai komponen-komponen ini untuk secara konsisten membuat dampak yang baik pada orang lain.
           </p>
           
           <div className="space-y-6">
@@ -70,12 +70,12 @@ const ImpressionCreation = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Positive Facial Expression</h4>
-                <p className="text-gray-600">Your face communicates more than words. A genuine smile creates an immediate positive connection.</p>
+                <h4 className="font-semibold text-gray-800 mb-1">Ekspresi Wajah Positif</h4>
+                <p className="text-gray-600">Wajah Anda mengkomunikasikan lebih dari kata-kata. Senyum tulus menciptakan koneksi positif langsung.</p>
                 <div className="mt-2 flex flex-col sm:flex-row gap-2">
                   <div className="flex-1 bg-gray-50 p-2 rounded text-sm">
-                    <p className="font-medium text-gray-700 mb-1">Practice Tip:</p>
-                    <p className="text-gray-600">Before entering a room or meeting someone, take a moment to relax your face and form a natural smile that reaches your eyes.</p>
+                    <p className="font-medium text-gray-700 mb-1">Tip Praktik:</p>
+                    <p className="text-gray-600">Sebelum memasuki ruangan atau bertemu seseorang, luangkan waktu sejenak untuk mengendurkan wajah Anda dan membentuk senyum alami yang mencapai mata Anda.</p>
                   </div>
                 </div>
               </div>
@@ -88,16 +88,16 @@ const ImpressionCreation = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Engaged Body Language</h4>
-                <p className="text-gray-600">Your posture, gestures, and physical presence signal your level of interest and confidence.</p>
+                <h4 className="font-semibold text-gray-800 mb-1">Bahasa Tubuh yang Terlibat</h4>
+                <p className="text-gray-600">Postur, gerakan, dan kehadiran fisik Anda menandakan tingkat minat dan kepercayaan diri Anda.</p>
                 <div className="mt-2 flex flex-col sm:flex-row gap-2">
                   <div className="flex-1 bg-gray-50 p-2 rounded text-sm">
-                    <p className="font-medium text-gray-700 mb-1">Key Elements:</p>
+                    <p className="font-medium text-gray-700 mb-1">Elemen Kunci:</p>
                     <ul className="list-disc list-inside space-y-1 text-gray-600">
-                      <li>Stand or sit upright with shoulders back</li>
-                      <li>Maintain comfortable eye contact</li>
-                      <li>Lean slightly forward when listening</li>
-                      <li>Avoid closed positions (crossed arms)</li>
+                      <li>Berdiri atau duduk tegak dengan bahu ke belakang</li>
+                      <li>Pertahankan kontak mata yang nyaman</li>
+                      <li>Condongkan sedikit ke depan saat mendengarkan</li>
+                      <li>Hindari posisi tertutup (lengan disilangkan)</li>
                     </ul>
                   </div>
                 </div>
@@ -111,16 +111,16 @@ const ImpressionCreation = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Attentive Communication</h4>
-                <p className="text-gray-600">Both your words and how you listen create powerful impressions. Focused attention makes others feel valued.</p>
+                <h4 className="font-semibold text-gray-800 mb-1">Komunikasi yang Penuh Perhatian</h4>
+                <p className="text-gray-600">Baik kata-kata Anda dan bagaimana Anda mendengarkan menciptakan kesan yang kuat. Perhatian yang terfokus membuat orang lain merasa dihargai.</p>
                 <div className="mt-2 flex flex-col sm:flex-row gap-2">
                   <div className="flex-1 bg-gray-50 p-2 rounded text-sm">
-                    <p className="font-medium text-gray-700 mb-1">Techniques:</p>
+                    <p className="font-medium text-gray-700 mb-1">Teknik:</p>
                     <ul className="list-disc list-inside space-y-1 text-gray-600">
-                      <li>Ask thoughtful questions about their interests</li>
-                      <li>Listen without interrupting</li>
-                      <li>Respond with relevant comments or questions</li>
-                      <li>Use their name appropriately in conversation</li>
+                      <li>Ajukan pertanyaan yang bijaksana tentang minat mereka</li>
+                      <li>Dengarkan tanpa menyela</li>
+                      <li>Tanggapi dengan komentar atau pertanyaan yang relevan</li>
+                      <li>Gunakan nama mereka secara tepat dalam percakapan</li>
                     </ul>
                   </div>
                 </div>
@@ -134,16 +134,16 @@ const ImpressionCreation = () => {
                 </svg>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-800 mb-1">Credibility and Authenticity</h4>
-                <p className="text-gray-600">Trust is the foundation of positive impressions. Being genuine while demonstrating competence creates lasting impact.</p>
+                <h4 className="font-semibold text-gray-800 mb-1">Kredibilitas dan Keaslian</h4>
+                <p className="text-gray-600">Kepercayaan adalah dasar dari kesan positif. Menjadi asli sambil menunjukkan kompetensi menciptakan dampak yang bertahan lama.</p>
                 <div className="mt-2 flex flex-col sm:flex-row gap-2">
                   <div className="flex-1 bg-gray-50 p-2 rounded text-sm">
-                    <p className="font-medium text-gray-700 mb-1">Building Trust:</p>
+                    <p className="font-medium text-gray-700 mb-1">Membangun Kepercayaan:</p>
                     <ul className="list-disc list-inside space-y-1 text-gray-600">
-                      <li>Be honest about your knowledge and limitations</li>
-                      <li>Keep commitments, even small ones</li>
-                      <li>Share relevant experience without dominating the conversation</li>
-                      <li>Show consistency between words and actions</li>
+                      <li>Jujur tentang pengetahuan dan keterbatasan Anda</li>
+                      <li>Tepati komitmen, bahkan yang kecil</li>
+                      <li>Bagikan pengalaman yang relevan tanpa mendominasi percakapan</li>
+                      <li>Tunjukkan konsistensi antara kata-kata dan tindakan</li>
                     </ul>
                   </div>
                 </div>
@@ -155,61 +155,61 @@ const ImpressionCreation = () => {
       
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
         <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Context-Specific Impression Strategies</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Strategi Kesan Khusus Konteks</h3>
           <p className="text-gray-600 mb-6">
-            Different situations call for different impression strategies. Adapt your approach to create
-            the most appropriate impression for each setting.
+            Situasi yang berbeda memerlukan strategi kesan yang berbeda. Sesuaikan pendekatan Anda untuk menciptakan
+            kesan yang paling tepat untuk setiap pengaturan.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <h4 className="font-medium text-gray-800 mb-2">Professional Settings</h4>
+              <h4 className="font-medium text-gray-800 mb-2">Pengaturan Profesional</h4>
               <ul className="list-disc list-inside space-y-1 text-gray-700">
-                <li>Emphasize competence and reliability</li>
-                <li>Maintain appropriate professional boundaries</li>
-                <li>Demonstrate knowledge while being open to learning</li>
-                <li>Balance confidence with teamwork orientation</li>
-                <li>Be punctual and prepared for all interactions</li>
+                <li>Tekankan kompetensi dan keandalan</li>
+                <li>Pertahankan batasan profesional yang tepat</li>
+                <li>Tunjukkan pengetahuan sambil terbuka untuk belajar</li>
+                <li>Seimbangkan kepercayaan diri dengan orientasi kerja tim</li>
+                <li>Tepat waktu dan siap untuk semua interaksi</li>
               </ul>
             </div>
             
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <h4 className="font-medium text-gray-800 mb-2">Social Gatherings</h4>
+              <h4 className="font-medium text-gray-800 mb-2">Pertemuan Sosial</h4>
               <ul className="list-disc list-inside space-y-1 text-gray-700">
-                <li>Focus on warmth and approachability</li>
-                <li>Show genuine interest in meeting new people</li>
-                <li>Ask open-ended questions to start conversations</li>
-                <li>Remember names and use them naturally</li>
-                <li>Offer authentic compliments when appropriate</li>
+                <li>Fokus pada kehangatan dan keterbukaan</li>
+                <li>Tunjukkan minat tulus dalam bertemu orang baru</li>
+                <li>Ajukan pertanyaan terbuka untuk memulai percakapan</li>
+                <li>Ingat nama dan gunakan secara natural</li>
+                <li>Tawarkan pujian tulus bila sesuai</li>
               </ul>
             </div>
             
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <h4 className="font-medium text-gray-800 mb-2">Leadership Positions</h4>
+              <h4 className="font-medium text-gray-800 mb-2">Posisi Kepemimpinan</h4>
               <ul className="list-disc list-inside space-y-1 text-gray-700">
-                <li>Demonstrate both confidence and humility</li>
-                <li>Listen attentively to others' input</li>
-                <li>Communicate clearly and with appropriate authority</li>
-                <li>Show appreciation for others' contributions</li>
-                <li>Make decisions thoughtfully and explain reasoning</li>
+                <li>Tunjukkan kepercayaan diri dan kerendahan hati</li>
+                <li>Dengarkan dengan penuh perhatian masukan orang lain</li>
+                <li>Komunikasikan dengan jelas dan dengan otoritas yang sesuai</li>
+                <li>Tunjukkan penghargaan atas kontribusi orang lain</li>
+                <li>Buat keputusan dengan bijaksana dan jelaskan alasannya</li>
               </ul>
             </div>
             
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <h4 className="font-medium text-gray-800 mb-2">Personal Relationships</h4>
+              <h4 className="font-medium text-gray-800 mb-2">Hubungan Pribadi</h4>
               <ul className="list-disc list-inside space-y-1 text-gray-700">
-                <li>Be authentic and vulnerable when appropriate</li>
-                <li>Show consistency between words and actions</li>
-                <li>Demonstrate empathy and emotional support</li>
-                <li>Respect boundaries while showing care</li>
-                <li>Invest time and attention in the relationship</li>
+                <li>Bersikap otentik dan rentan bila sesuai</li>
+                <li>Tunjukkan konsistensi antara kata-kata dan tindakan</li>
+                <li>Tunjukkan empati dan dukungan emosional</li>
+                <li>Hormati batasan sambil menunjukkan kepedulian</li>
+                <li>Investasikan waktu dan perhatian dalam hubungan</li>
               </ul>
             </div>
           </div>
           
           <div className="flex justify-center">
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium cursor-pointer hover:bg-blue-700 transition-colors">
-              Try the Interactive Impression Exercise
+              Coba Latihan Kesan Interaktif
             </button>
           </div>
         </div>
